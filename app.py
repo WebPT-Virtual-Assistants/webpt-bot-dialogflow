@@ -23,13 +23,15 @@ def webhook():
     req = request.get_json(silent=True, force=True)
 
     print("Request:")
-    # commented out by Naresh
+
     print(json.dumps(req, indent=4))
 
     res = processRequest(req)
 
     res = json.dumps(res, indent=4)
+
     # print(res)
+
     r = make_response(res)
     r.headers['Content-Type'] = 'application/json'
     return r
@@ -100,27 +102,6 @@ def makeWebhookResult(data):
         # "contextOut": [],
         "source": "apiai-weather-webhook-sample"
     }
-
-
-@app.route('/test', methods=['GET'])
-def test():
-    return  "Hello there my friend !!"
-
-
-@app.route('/static_reply', methods=['POST'])
-def static_reply():
-    speech = "Hello there, this reply is from the webhook !! "
-    my_result =  {
-        "speech": speech,
-        "displayText": speech,
-        # "data": data,
-        # "contextOut": [],
-        "source": "apiai-weather-webhook-sample"
-    }
-    res = json.dumps(my_result, indent=4)
-    r = make_response(res)
-    r.headers['Content-Type'] = 'application/json'
-    return r
 
 
 
