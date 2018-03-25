@@ -42,15 +42,22 @@ def processRequest(req):
     print ("starting processRequest...", req.get("result").get("action"))
     res = ""
     if req.get("result").get("action") == "InitialExamination.InitialExamination-custom":
-        processInitialReq(req)
-    return null
+        res = processInitialReq(req)
+    return res
 
 
 def processInitialReq(req):
     result = req.get("result")
     parameters = result.get("parameters")
     bodyp = parameters.get()
-    return null
+    speech = bodyp
+    return {
+        "speech": speech,
+        "displayText": speech,
+        # "data": data,
+        # "contextOut": [],
+        "source": "web-pt"
+    }
 
 
 
@@ -86,33 +93,33 @@ def processInitialReq(req):
 #     query = data.get('query')
 #     if query is None:
 #         return {}
-#
+# 
 #     result = query.get('results')
 #     if result is None:
 #         return {}
-#
+# 
 #     channel = result.get('channel')
 #     if channel is None:
 #         return {}
-#
+# 
 #     item = channel.get('item')
 #     location = channel.get('location')
 #     units = channel.get('units')
 #     if (location is None) or (item is None) or (units is None):
 #         return {}
-#
+# 
 #     condition = item.get('condition')
 #     if condition is None:
 #         return {}
-#
+# 
 #     # print(json.dumps(item, indent=4))
-#
+# 
 #     speech = "Today the weather in " + location.get('city') + ": " + condition.get('text') + \
 #              ", And the temperature is " + condition.get('temp') + " " + units.get('temperature')
-#
+# 
 #     print("Response:")
 #     print(speech)
-#
+# 
 #     return {
 #         "speech": speech,
 #         "displayText": speech,
@@ -121,7 +128,20 @@ def processInitialReq(req):
 #         "source": "apiai-weather-webhook-sample"
 #     }
 
+def makeWebhookResult(data):
+    speech = "Today the weather in " + location.get('city') + ": " + condition.get('text') + \
+             ", And the temperature is " + condition.get('temp') + " " + units.get('temperature')
 
+    print("Response:")
+    print(speech)
+
+    return {
+        "speech": speech,
+        "displayText": speech,
+        # "data": data,
+        # "contextOut": [],
+        "source": "apiai-weather-webhook-sample"
+    }
 
 if __name__ == '__main__':
     port = int(os.getenv('PORT', 5000))
