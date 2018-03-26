@@ -41,21 +41,28 @@ def webhook():
 def processRequest(req):
     print ("starting processRequest...", req.get("result").get("action"))
     res = None
-    if req.get("result").get("action") == "InitialExamination.InitialExamination-custom":
-        res = processInitialReq(req)
+    if req.get("result").get("action") == "initate_form.initate_form-name":
+        res = processName(req)
+    if req.get("result").get("action") == "yahooWeatherForecast":
+        baseurl = "https://query.yahooapis.com/v1/public/yql?"
+        yql_query = makeYqlQuery(req)
+        if yql_query is None:
+            return {}
+        yql_url = baseurl + urlencode({'q': yql_query}) + "&format=json"
+        result = urlopen(yql_url).read()
+        #data = json.loads(result)
+        #for some the line above gives an error and hence decoding to utf-8 might help
+        data = json.loads(result.decode('utf-8'))
+        res = makeWebhookResult(data)
+        return res
     return res
 
 
-def processInitialReq(req):
+def processName(req):
     result = req.get("result")
     parameters = result.get("parameters")
-    body_part = parameters.get("Body_Part")
-    if body_part == "knee":
-        speech = "Have you performed the Knee Gait Analysis yet?"
-    elif body_part == "shoulder":
-        speech = "Did you perform the strength test on the shoulder?"
-    else:
-        speech = "Unable to understand body part. Please start over."
+    firstn = parameters.get("given-name")
+    lastn = parameters.get("last-name")
     return {
         "speech": speech,
         "displayText": speech,
@@ -83,62 +90,47 @@ def processInitialReq(req):
 #     return res
 
 
-# def makeYqlQuery(req):
-#     result = req.get("result")
-#     parameters = result.get("parameters")
-#     city = parameters.get("geo-city")
-#     if city is None:
-#         return None
-#     return "select * from weather.forecast where woeid in (select woeid from geo.places(1) where text='" + city + "')"
+def makeYqlQuery(req):
+    result = req.get("result")
+    parameters = result.get("parameters")
+    city = parameters.get("geo-city")
+    if city is None:
+        return None
+    return "select * from weather.forecast where woeid in (select woeid from geo.places(1) where text='" + city + "')"
 
-
-# def makeWebhookResult(data):
-#     print ("starting makeWebhookResult...")
-#     query = data.get('query')
-#     if query is None:
-#         return {}
-# 
-#     result = query.get('results')
-#     if result is None:
-#         return {}
-# 
-#     channel = result.get('channel')
-#     if channel is None:
-#         return {}
-# 
-#     item = channel.get('item')
-#     location = channel.get('location')
-#     units = channel.get('units')
-#     if (location is None) or (item is None) or (units is None):
-#         return {}
-# 
-#     condition = item.get('condition')
-#     if condition is None:
-#         return {}
-# 
-#     # print(json.dumps(item, indent=4))
-# 
-#     speech = "Today the weather in " + location.get('city') + ": " + condition.get('text') + \
-#              ", And the temperature is " + condition.get('temp') + " " + units.get('temperature')
-# 
-#     print("Response:")
-#     print(speech)
-# 
-#     return {
-#         "speech": speech,
-#         "displayText": speech,
-#         # "data": data,
-#         # "contextOut": [],
-#         "source": "apiai-weather-webhook-sample"
-#     }
 
 def makeWebhookResult(data):
+    print ("starting makeWebhookResult...")
+    query = data.get('query')
+    if query is None:
+        return {}
+ 
+    result = query.get('results')
+    if result is None:
+        return {}
+ 
+    channel = result.get('channel')
+    if channel is None:
+        return {}
+ 
+    item = channel.get('item')
+    location = channel.get('location')
+    units = channel.get('units')
+    if (location is None) or (item is None) or (units is None):
+        return {}
+ 
+    condition = item.get('condition')
+    if condition is None:
+        return {}
+ 
+    # print(json.dumps(item, indent=4))
+ 
     speech = "Today the weather in " + location.get('city') + ": " + condition.get('text') + \
              ", And the temperature is " + condition.get('temp') + " " + units.get('temperature')
-
+ 
     print("Response:")
     print(speech)
-
+ 
     return {
         "speech": speech,
         "displayText": speech,
