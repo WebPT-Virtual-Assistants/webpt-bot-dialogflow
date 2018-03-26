@@ -61,7 +61,7 @@ def processRequest(req):
 def processName(req):
     result = req.get("result")
     parameters = result.get("parameters")
-    firstn = parameters.get("given-name")
+    firstn = parameters.get("first-name")
     lastn = parameters.get("last-name")
     speech = "The name is " + firstn + " " + lastn
     return {
