@@ -49,14 +49,19 @@ def processRequest(req):
 def processInitialReq(req):
     result = req.get("result")
     parameters = result.get("parameters")
-    bodyp = parameters.get("Body_Part")
-    speech = bodyp
+    body_part = parameters.get("Body_Part")
+    if body_part == "knee":
+        speech = "Have you performed the Knee Gait Analysis yet?"
+    elif body_part == "shoulder":
+        speech = "Did you perform the strength test on the shoulder?"
+    else:
+        speech = "Unable to understand body part. Please start over."
     return {
         "speech": speech,
         "displayText": speech,
         # "data": data,
         # "contextOut": [],
-        "source": "web-pt"
+        "source": "web-pt-webhook"
     }
 
 
