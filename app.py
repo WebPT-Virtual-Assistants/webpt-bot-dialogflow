@@ -66,9 +66,6 @@ def processRequest(req):
     elif req.get("result").get("action") == "initate_form.initate_form-name.mechanism-of-injury-yes.pop-or-crack-yes.swelling-no":
         res = {}
         sessionForms[req.get("sessionId")] += "swelling: No\n"
-    elif req.get("result").get("action") == "print-form":
-        res = {}
-        print(sessionForms[req.get("sessionId")])
     elif req.get("result").get("action") == "yahooWeatherForecast":
         baseurl = "https://query.yahooapis.com/v1/public/yql?"
         yql_query = makeYqlQuery(req)
@@ -81,6 +78,7 @@ def processRequest(req):
         data = json.loads(result.decode('utf-8'))
         res = makeWebhookResult(data)
         return res
+    print(sessionForms[req.get("sessionId")])
     return res
 
 
