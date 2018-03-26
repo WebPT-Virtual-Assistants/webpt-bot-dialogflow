@@ -40,7 +40,7 @@ def webhook():
 
 def processRequest(req):
     print ("starting processRequest...", req.get("result").get("action"))
-    res = ""
+    res = None
     if req.get("result").get("action") == "InitialExamination.InitialExamination-custom":
         res = processInitialReq(req)
     return res
