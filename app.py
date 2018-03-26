@@ -73,11 +73,11 @@ def processName(req):
     speech = "The name is " + firstn + " " + lastn + "\n"
     sessionForms[session] += speech
     return {
-        "speech": speech,
-        "displayText": speech,
-        # "data": data,
-        # "contextOut": [],
-        "source": "web-pt-webhook"
+#         "speech": speech,
+#         "displayText": speech,
+#         # "data": data,
+#         # "contextOut": [],
+#         "source": "web-pt-webhook"
     }
 
 
