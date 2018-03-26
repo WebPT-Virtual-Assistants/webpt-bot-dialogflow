@@ -44,9 +44,11 @@ def webhook():
 def processRequest(req):
     print ("starting processRequest...", req.get("result").get("action"))
     res = None
+    if sessionForms.get(req.get("sessionId")) == None:
+        sessionForms[req.get("sessionId")] = "Session is: " + req.get("sessionId") + "\n"
     if req.get("result").get("action") == "initate_form.initate_form-name":
         res = processName(req)
-    if req.get("result").get("action") == "yahooWeatherForecast":
+    elif req.get("result").get("action") == "yahooWeatherForecast":
         baseurl = "https://query.yahooapis.com/v1/public/yql?"
         yql_query = makeYqlQuery(req)
         if yql_query is None:
