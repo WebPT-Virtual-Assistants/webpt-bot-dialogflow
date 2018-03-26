@@ -13,6 +13,9 @@ import os
 from flask import Flask
 from flask import request
 from flask import make_response
+from pip._vendor.requests.sessions import session
+
+sessionForms = {}
 
 # Flask app should start in global layout
 app = Flask(__name__)
@@ -55,15 +58,18 @@ def processRequest(req):
         data = json.loads(result.decode('utf-8'))
         res = makeWebhookResult(data)
         return res
+    print(sessionForms[req.get("sessionId")])
     return res
 
 
 def processName(req):
     result = req.get("result")
+    session = req.get("sessionId")
     parameters = result.get("parameters")
     firstn = parameters.get("first-name")
     lastn = parameters.get("last-name")
-    speech = "The name is " + firstn + " " + lastn
+    speech = "The name is " + firstn + " " + lastn + "\n"
+    sessionForms[session] += speech
     return {
         "speech": speech,
         "displayText": speech,
