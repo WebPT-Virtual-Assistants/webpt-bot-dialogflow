@@ -48,6 +48,9 @@ def processRequest(req):
         sessionForms[req.get("sessionId")] = "Session is: " + req.get("sessionId") + "\n"
     if req.get("result").get("action") == "initate_form.initate_form-name":
         res = processName(req)
+    elif req.get("result").get("action") == "initate_form.initate_form-name.mechanism-of-injury-yes":
+        res = {}
+        sessionForms[req.get("sessionId")] += "traumatic, lower extremity noncontact: Yes"
     elif req.get("result").get("action") == "yahooWeatherForecast":
         baseurl = "https://query.yahooapis.com/v1/public/yql?"
         yql_query = makeYqlQuery(req)
