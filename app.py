@@ -51,10 +51,10 @@ def processRequest(req):
     elif req.get("result").get("action") == "initate_form.initate_form-name.mechanism-of-injury-no":
         res = {}
         sessionForms[req.get("sessionId")] += "traumatic, lower extremity noncontact: No\n"
-    elif "initate_form.initate_form-name.mechanism-of-injury-yes.pop-or-crack-no":
+    elif req.get("result").get("action") == "initate_form.initate_form-name.mechanism-of-injury-yes.pop-or-crack-no":
         res = {}
         sessionForms[req.get("sessionId")] += "pop Crack: No\n"
-    elif "initate_form.initate_form-name.mechanism-of-injury-yes.pop-or-crack-yes":
+    elif req.get("result").get("action") == "initate_form.initate_form-name.mechanism-of-injury-yes.pop-or-crack-yes":
         res = {}
         sessionForms[req.get("sessionId")] += "pop Crack: yes\n"
     elif req.get("result").get("action") == "initate_form.initate_form-name.mechanism-of-injury-yes":
