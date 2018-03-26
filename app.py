@@ -49,7 +49,7 @@ def processRequest(req):
 def processInitialReq(req):
     result = req.get("result")
     parameters = result.get("parameters")
-    bodyp = parameters.get()
+    bodyp = parameters.get("Body_Part")
     speech = bodyp
     return {
         "speech": speech,
@@ -58,7 +58,6 @@ def processInitialReq(req):
         # "contextOut": [],
         "source": "web-pt"
     }
-
 
 
 # Weather Demo
