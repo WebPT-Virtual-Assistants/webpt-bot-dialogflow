@@ -46,28 +46,11 @@ def processRequest(req):
     res = None
     if sessionForms.get(req.get("sessionId")) == None:
         sessionForms[req.get("sessionId")] = "Session is: " + req.get("sessionId") + "\n"
-    if req.get("result").get("action") == "initate_form.initate_form-name":
+    if req.get("result").get("action") == "initiate-form.initiate-form-custom":
         res = processName(req)
     elif req.get("result").get("action") == "initate_form.initate_form-name.mechanism-of-injury-no":
         res = {}
         sessionForms[req.get("sessionId")] += "traumatic, lower extremity noncontact: No\n"
-    elif req.get("result").get("action") == "initate_form.initate_form-name.mechanism-of-injury-yes.pop-or-crack-no":
-        res = {}
-        sessionForms[req.get("sessionId")] += "pop Crack: No\n"
-    elif req.get("result").get("action") == "initate_form.initate_form-name.mechanism-of-injury-yes.pop-or-crack-yes":
-        res = {}
-        sessionForms[req.get("sessionId")] += "pop Crack: yes\n"
-    elif req.get("result").get("action") == "initate_form.initate_form-name.mechanism-of-injury-yes":
-        res = {}
-        sessionForms[req.get("sessionId")] += "traumatic, lower extremity noncontact: Yes\n"
-    elif req.get("result").get("action") == "initate_form.initate_form-name.mechanism-of-injury-yes.pop-or-crack-yes.swelling-yes":
-        res = {}
-        sessionForms[req.get("sessionId")] += "swelling: Yes\n"
-    elif req.get("result").get("action") == "initate_form.initate_form-name.mechanism-of-injury-yes.pop-or-crack-yes.swelling-no":
-        res = {}
-        sessionForms[req.get("sessionId")] += "swelling: No\n"
-    elif req.get("result").get("action") == "print-form":
-        print(sessionForms[req.get("sessionId")])
     elif req.get("result").get("action") == "yahooWeatherForecast":
         baseurl = "https://query.yahooapis.com/v1/public/yql?"
         yql_query = makeYqlQuery(req)
@@ -80,6 +63,8 @@ def processRequest(req):
         data = json.loads(result.decode('utf-8'))
         res = makeWebhookResult(data)
         return res
+    else:
+        res = {}
     return res
 
 
