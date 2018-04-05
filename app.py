@@ -10,9 +10,6 @@ from urllib.error import HTTPError
 import json
 import os
 
-from pydrive.auth import GoogleAuth
-from pydrive.drive import GoogleDrive
-
 from flask import Flask
 from flask import request
 from flask import make_response
