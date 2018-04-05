@@ -51,6 +51,8 @@ def processRequest(req):
     elif req.get("result").get("action") == "initate_form.initate_form-name.mechanism-of-injury-no":
         res = {}
         sessionForms[req.get("sessionId")] += "traumatic, lower extremity noncontact: No\n"
+    elif req.get("result").get("action") == "print-form":
+        print(sessionForms[req.get("sessionId")])
     elif req.get("result").get("action") == "yahooWeatherForecast":
         baseurl = "https://query.yahooapis.com/v1/public/yql?"
         yql_query = makeYqlQuery(req)
