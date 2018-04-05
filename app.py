@@ -43,7 +43,7 @@ def webhook():
 
 def processRequest(req):
     print ("starting processRequest...", req.get("result").get("action"))
-    res = None
+    res = {}
     if sessionForms.get(req.get("sessionId")) == None:
         sessionForms[req.get("sessionId")] = "Session is: " + req.get("sessionId") + "\n"
     if req.get("result").get("action") == "initiate-form.initiate-form-custom":
