@@ -39,7 +39,7 @@ def webhook():
 
     r = make_response(res)
     r.headers['Content-Type'] = 'application/json'
-    return r
+    return res
 
 def processRequest(req):
     print ("starting processRequest...", req.get("result").get("action"))
