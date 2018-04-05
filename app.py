@@ -43,13 +43,14 @@ def webhook():
 
 def processRequest(req):
     print ("starting processRequest...", req.get("result").get("action"))
-    res = {}
+    res = res = {
+            "source": "web-pt"
+        }
     if sessionForms.get(req.get("sessionId")) == None:
         sessionForms[req.get("sessionId")] = "Session is: " + req.get("sessionId") + "\n"
     if req.get("result").get("action") == "initiate-form.initiate-form-custom":
         res = processName(req)
     elif req.get("result").get("action") == "initate_form.initate_form-name.mechanism-of-injury-no":
-        res = {}
         sessionForms[req.get("sessionId")] += "traumatic, lower extremity noncontact: No\n"
     elif req.get("result").get("action") == "print-form":
         print(sessionForms[req.get("sessionId")])
@@ -66,7 +67,9 @@ def processRequest(req):
         res = makeWebhookResult(data)
         return res
     else:
-        res = {}
+        res = {
+            "source": "web-pt"
+        }
     return res
 
 
