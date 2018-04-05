@@ -3,4 +3,3 @@ future==0.16.0
 setuptools
 google-api-python-client
 oauth2client
-PyDrive
