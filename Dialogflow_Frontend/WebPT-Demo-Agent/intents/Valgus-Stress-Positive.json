@@ -1,0 +1,35 @@
+{
+  "id": "d984c8ef-f64a-48fb-977a-19765db6e5d2",
+  "parentId": "dcdd7061-8260-4d36-92ec-1a6f2ec0d28c",
+  "rootParentId": "8b7426b7-9b82-493b-b195-39d013fdac48",
+  "name": "Valgus-Stress-Positive",
+  "auto": true,
+  "contexts": [
+    "Valgus-Stress-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "initiate-form.initiate-form-custom.mechanism-of-injury-yes.pop-or-crack-no.locking-or-catching-yes.medial-joint-tenderness-yes.McMurrays-custom-2.Valgus-Stress-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I suspect a MCL spain, let\u0027s initiate Physical Therapy."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522914056,
+  "fallbackIntent": false,
+  "events": []
+}

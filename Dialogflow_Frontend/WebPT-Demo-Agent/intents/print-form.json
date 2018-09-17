@@ -1,0 +1,31 @@
+{
+  "id": "35388a42-dacd-46a6-9b18-0354f55d9b03",
+  "name": "print-form",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "print-form",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Form is printed in console log!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522913355,
+  "fallbackIntent": false,
+  "events": []
+}

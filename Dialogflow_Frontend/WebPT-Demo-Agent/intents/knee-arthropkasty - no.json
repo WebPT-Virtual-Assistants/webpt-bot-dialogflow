@@ -1,0 +1,35 @@
+{
+  "id": "9c70fd30-d4b3-4f9e-afe8-08c8cf1ad150",
+  "parentId": "1901b4ec-a886-4c19-9748-2a9fd29f01c0",
+  "rootParentId": "8b7426b7-9b82-493b-b195-39d013fdac48",
+  "name": "knee-arthropkasty - no",
+  "auto": true,
+  "contexts": [
+    "knee-arthropkasty-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "initiate-form.initiate-form-custom.mechanism-of-injury-no.post-surgical-yes.knee-arthropkasty-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "This theoretically would branch into various surgical procedures for the knee. End of sample flow chart."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522950363,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "521233c1-dd2f-40aa-8793-16562bca245b",
+    "data": [
+      {
+        "text": "Pain on my ",
+        "userDefined": false
+      },
+      {
+        "text": "back",
+        "alias": "Body_Part",
+        "meta": "@Body_Part",
+        "userDefined": true
+      },
+      {
+        "text": " has improved from ",
+        "userDefined": false
+      },
+      {
+        "text": "pain scale",
+        "alias": "vitals",
+        "meta": "@vitals",
+        "userDefined": true
+      },
+      {
+        "text": " of ",
+        "userDefined": false
+      },
+      {
+        "text": "7 out of 10",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "3 out of 10",
+        "alias": "number1",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536104658
+  }
+]

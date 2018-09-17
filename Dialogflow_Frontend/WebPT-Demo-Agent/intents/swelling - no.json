@@ -1,0 +1,35 @@
+{
+  "id": "8a00abb8-ad1e-4238-a8f2-3e4fead3a535",
+  "parentId": "2b2a56cc-aed2-4573-a71e-81643c880d3f",
+  "rootParentId": "8b7426b7-9b82-493b-b195-39d013fdac48",
+  "name": "swelling - no",
+  "auto": true,
+  "contexts": [
+    "swelling-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "initiate-form.initiate-form-custom.mechanism-of-injury-yes.pop-or-crack-yes.swelling-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "End of sample flow chart."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522913516,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "a80938fd-dee0-4820-ab68-71eeac7d484d",
+  "parentId": "fd8f6a0c-195a-434a-8104-08232bc841f9",
+  "rootParentId": "fd8f6a0c-195a-434a-8104-08232bc841f9",
+  "name": "knee-pain-join - no",
+  "auto": true,
+  "contexts": [
+    "knee-pain-join-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "knee-pain-join.knee-pain-join-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "End of sample flow chart."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522950866,
+  "fallbackIntent": false,
+  "events": []
+}

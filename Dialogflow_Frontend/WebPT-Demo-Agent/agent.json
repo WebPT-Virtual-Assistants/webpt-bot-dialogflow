@@ -1,0 +1,64 @@
+{
+  "description": "WebPT form demo",
+  "language": "en",
+  "activeAssistantAgents": [
+    "smalltalk-domain-on",
+    "smalltalk-fulfillment-on"
+  ],
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": false,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [
+      "8a00abb8-ad1e-4238-a8f2-3e4fead3a535",
+      "968a9d99-f57f-4ed0-b2bc-41b385d46a0a",
+      "2294c56d-db23-4ccc-84d4-929d83a34aa8",
+      "36f4d630-dcb9-4aa0-a720-d71b0ea6741b",
+      "72b18993-3615-48bc-95b5-16d82bc429c3",
+      "24042060-9c27-45f5-b2f1-6667e2b58dd4",
+      "fc095340-02ff-4ad6-bf4b-7880eb65e35e",
+      "d984c8ef-f64a-48fb-977a-19765db6e5d2",
+      "63b37b4d-201e-4d66-a669-1928082a5468",
+      "c1c64ccc-78a6-4c95-86ba-6fb1fe5ef326",
+      "d8b84477-ecec-4789-9e33-bd69b4775709",
+      "a80938fd-dee0-4820-ab68-71eeac7d484d",
+      "9c70fd30-d4b3-4f9e-afe8-08c8cf1ad150",
+      "9dcaac84-4ef3-4a80-bb08-dde083df9827",
+      "d7e59887-e97f-423c-9200-0d36bdeb2935",
+      "62b3d792-aa02-44ef-bb94-893fc2c6faa0",
+      "3855a18b-6014-452f-86cb-3e39cbf43ebc"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "America/Los_Angeles",
+  "webhook": {
+    "url": "https://web-pt.herokuapp.com/webhook",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v2beta1",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false
+}

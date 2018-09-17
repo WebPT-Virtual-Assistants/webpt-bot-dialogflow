@@ -1,0 +1,106 @@
+[
+  {
+    "id": "94ef1b31-baa8-4fbe-ab53-8c23357ef015",
+    "data": [
+      {
+        "text": "Document ",
+        "userDefined": false
+      },
+      {
+        "text": "Subjective",
+        "alias": "Test_Name",
+        "meta": "@Test_Type",
+        "userDefined": true
+      },
+      {
+        "text": " SOAP notes for ",
+        "userDefined": false
+      },
+      {
+        "text": "Andrew",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Nguyen",
+        "alias": "last-name",
+        "meta": "@sys.last-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536099857
+  },
+  {
+    "id": "b45f96ba-e02b-4a79-997b-74b4f5ba26b0",
+    "data": [
+      {
+        "text": "Begin SOAP notes for ",
+        "userDefined": false
+      },
+      {
+        "text": "Matt",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Davis",
+        "alias": "last-name",
+        "meta": "@sys.last-name",
+        "userDefined": true
+      },
+      {
+        "text": " and lets document ",
+        "userDefined": false
+      },
+      {
+        "text": "Subjective",
+        "alias": "Test_Name",
+        "meta": "@Test_Type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536099629
+  },
+  {
+    "id": "2f2e3680-0270-4147-82d1-7f48e8901cb5",
+    "data": [
+      {
+        "text": "Begin SOAP notes for ",
+        "userDefined": false
+      },
+      {
+        "text": "A23R",
+        "alias": "patient-id",
+        "meta": "@patient-id",
+        "userDefined": true
+      },
+      {
+        "text": " and lets document ",
+        "userDefined": false
+      },
+      {
+        "text": "Subjective",
+        "alias": "Test_Name",
+        "meta": "@Test_Type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536103743
+  }
+]

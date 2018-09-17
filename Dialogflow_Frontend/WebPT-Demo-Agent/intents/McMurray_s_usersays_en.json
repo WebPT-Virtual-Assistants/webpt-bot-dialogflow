@@ -1,0 +1,110 @@
+[
+  {
+    "id": "a2a4f3d3-da6c-45b3-95f7-2f87132dcacb",
+    "data": [
+      {
+        "text": "of course",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522037689
+  },
+  {
+    "id": "7b1ae74c-7bfb-4f5d-aeef-f320dc88fe2c",
+    "data": [
+      {
+        "text": "exactly",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522037689
+  },
+  {
+    "id": "cdcc08f8-437b-42ac-96f1-e43f9a6f0f61",
+    "data": [
+      {
+        "text": "yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522037689
+  },
+  {
+    "id": "1e5aa29a-b04c-4e2f-8710-a0fa40452543",
+    "data": [
+      {
+        "text": "sounds good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522037689
+  },
+  {
+    "id": "e6a869f7-d7e0-48bc-bd4b-6c7237a8b407",
+    "data": [
+      {
+        "text": "that\u0027s correct",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522037689
+  },
+  {
+    "id": "f6d5b43c-f83b-4403-b0ed-f224cffefb62",
+    "data": [
+      {
+        "text": "sure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 1522037689
+  },
+  {
+    "id": "28d2cc60-4f73-47d0-8922-50668f44bbc6",
+    "data": [
+      {
+        "text": "confirm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1522037689
+  },
+  {
+    "id": "34df8dfa-b0c2-42c4-a1c1-addd876b6190",
+    "data": [
+      {
+        "text": "She did",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522037689
+  },
+  {
+    "id": "dbaab987-0a80-4c20-992a-37ee8e4e0584",
+    "data": [
+      {
+        "text": "He did",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522037689
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "id": "d7e59887-e97f-423c-9200-0d36bdeb2935",
+  "parentId": "7f118c7a-698e-40d5-ab8c-3dbfab80a34c",
+  "rootParentId": "8b7426b7-9b82-493b-b195-39d013fdac48",
+  "name": "swelling2 - no",
+  "auto": true,
+  "contexts": [
+    "swelling2-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "initiate-form.initiate-form-custom.mechanism-of-injury-no.post-surgical-yes.knee-arthropkasty-yes.new-onset-yes.swelling2-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "End of sample flow chart."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522953041,
+  "fallbackIntent": false,
+  "events": []
+}

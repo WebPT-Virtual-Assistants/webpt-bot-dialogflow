@@ -1,0 +1,35 @@
+{
+  "id": "62b3d792-aa02-44ef-bb94-893fc2c6faa0",
+  "parentId": "6e0f2290-294a-4474-9dbe-2da9b2cf849a",
+  "rootParentId": "8b7426b7-9b82-493b-b195-39d013fdac48",
+  "name": "tenderness2 - no",
+  "auto": true,
+  "contexts": [
+    "tenderness2-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "initiate-form.initiate-form-custom.mechanism-of-injury-no.post-surgical-yes.knee-arthropkasty-yes.new-onset-yes.swelling2-yes.tenderness2-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "End of sample flow chart."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522953455,
+  "fallbackIntent": false,
+  "events": []
+}

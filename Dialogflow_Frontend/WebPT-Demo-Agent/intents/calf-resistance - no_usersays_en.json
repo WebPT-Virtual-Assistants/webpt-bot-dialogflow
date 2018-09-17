@@ -1,0 +1,74 @@
+[
+  {
+    "id": "baf99296-8fce-47ff-915d-392f20a5e34c",
+    "data": [
+      {
+        "text": "She did not",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522035884
+  },
+  {
+    "id": "530f532c-7332-4c73-8ade-992c4a624e6f",
+    "data": [
+      {
+        "text": "He did not",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522035884
+  },
+  {
+    "id": "9b78a5bd-e1e9-46c7-ae68-02503e693016",
+    "data": [
+      {
+        "text": "I don\u0027t think so",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520470718
+  },
+  {
+    "id": "a1cfbef4-5e6c-4f39-9a23-b6958ba68398",
+    "data": [
+      {
+        "text": "not really",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520470718
+  },
+  {
+    "id": "d3b0734d-3a49-4806-81b0-168fc886cb21",
+    "data": [
+      {
+        "text": "definitely not",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1520470718
+  },
+  {
+    "id": "0c151623-bf61-4f3f-95c9-06af4bc2822a",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1520470718
+  }
+]

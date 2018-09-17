@@ -1,0 +1,26 @@
+[
+  {
+    "value": "elbow",
+    "synonyms": [
+      "Elbow"
+    ]
+  },
+  {
+    "value": "knee",
+    "synonyms": [
+      "Knee"
+    ]
+  },
+  {
+    "value": "shoulder",
+    "synonyms": [
+      "shoulder"
+    ]
+  },
+  {
+    "value": "back",
+    "synonyms": [
+      "back"
+    ]
+  }
+]

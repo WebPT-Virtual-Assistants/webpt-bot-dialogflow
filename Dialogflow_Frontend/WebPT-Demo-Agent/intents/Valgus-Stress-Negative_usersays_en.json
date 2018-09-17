@@ -1,0 +1,62 @@
+[
+  {
+    "id": "2c410d12-2223-454d-8998-c148572476ce",
+    "data": [
+      {
+        "text": "not really",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522902845
+  },
+  {
+    "id": "44cb5b09-0690-4b1a-96cf-2e00e308868e",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1522902845
+  },
+  {
+    "id": "f2dac8aa-b99d-4e53-9e79-500eda8a2644",
+    "data": [
+      {
+        "text": "I don\u0027t think so",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522902845
+  },
+  {
+    "id": "f429ffae-fcd9-4c05-9646-bb1c6b5a3e1c",
+    "data": [
+      {
+        "text": "Negative",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522902845
+  },
+  {
+    "id": "49ccaf47-588d-4296-a926-fcd2a47f91b4",
+    "data": [
+      {
+        "text": "definitely not",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1522902845
+  }
+]

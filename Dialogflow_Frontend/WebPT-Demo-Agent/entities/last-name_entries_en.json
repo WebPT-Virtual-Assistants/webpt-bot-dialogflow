@@ -1,0 +1,20 @@
+[
+  {
+    "value": "@sys.last-name",
+    "synonyms": [
+      "@sys.last-name"
+    ]
+  },
+  {
+    "value": "@custom-lastnames",
+    "synonyms": [
+      "@custom-lastnames"
+    ]
+  },
+  {
+    "value": "Doe",
+    "synonyms": [
+      "Doe"
+    ]
+  }
+]

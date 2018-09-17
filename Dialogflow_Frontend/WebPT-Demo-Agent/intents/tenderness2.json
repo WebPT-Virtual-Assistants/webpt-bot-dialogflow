@@ -1,0 +1,41 @@
+{
+  "id": "6e0f2290-294a-4474-9dbe-2da9b2cf849a",
+  "parentId": "7f118c7a-698e-40d5-ab8c-3dbfab80a34c",
+  "rootParentId": "8b7426b7-9b82-493b-b195-39d013fdac48",
+  "name": "tenderness2",
+  "auto": true,
+  "contexts": [
+    "swelling2-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "initiate-form.initiate-form-custom.mechanism-of-injury-no.post-surgical-yes.knee-arthropkasty-yes.new-onset-yes.swelling2-yes",
+      "affectedContexts": [
+        {
+          "name": "tenderness2-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Was there tenderness to palpation in the calf musculature?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522953183,
+  "fallbackIntent": false,
+  "events": []
+}

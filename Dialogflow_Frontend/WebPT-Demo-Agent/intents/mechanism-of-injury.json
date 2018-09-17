@@ -1,0 +1,70 @@
+{
+  "id": "e9399def-19af-45da-bd90-26775f461419",
+  "parentId": "8b7426b7-9b82-493b-b195-39d013fdac48",
+  "rootParentId": "8b7426b7-9b82-493b-b195-39d013fdac48",
+  "name": "mechanism-of-injury",
+  "auto": true,
+  "contexts": [
+    "initiate-form-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "initiate-form.initiate-form-custom",
+      "affectedContexts": [
+        {
+          "name": "mechanism-of-injury-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b0d84279-fe1a-4988-a433-dc72cfb93b59",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "first-name",
+          "value": "$first-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the first name?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "b25a4a44-3a3f-49bb-9fc1-396e00bee444",
+          "required": true,
+          "dataType": "@last-name",
+          "name": "last-name",
+          "value": "$last-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the last name?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Was the mechanism of injury a traumatic, lower extremity noncontact injury?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522913274,
+  "fallbackIntent": false,
+  "events": []
+}

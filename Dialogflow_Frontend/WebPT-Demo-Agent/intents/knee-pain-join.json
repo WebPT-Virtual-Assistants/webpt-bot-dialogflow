@@ -1,0 +1,38 @@
+{
+  "id": "fd8f6a0c-195a-434a-8104-08232bc841f9",
+  "name": "knee-pain-join",
+  "auto": true,
+  "contexts": [
+    "locking-or-catching-join"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "knee-pain-join-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Has #locking-or-catching-join.first-name experienced pain in the anterior knee?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522950048,
+  "fallbackIntent": false,
+  "events": []
+}

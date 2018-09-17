@@ -1,0 +1,41 @@
+{
+  "id": "62e0f74e-9575-4e64-8292-843c2b3f0461",
+  "parentId": "e9399def-19af-45da-bd90-26775f461419",
+  "rootParentId": "8b7426b7-9b82-493b-b195-39d013fdac48",
+  "name": "post-surgical",
+  "auto": true,
+  "contexts": [
+    "mechanism-of-injury-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "initiate-form.initiate-form-custom.mechanism-of-injury-no",
+      "affectedContexts": [
+        {
+          "name": "post-surgical-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Is #mechanism-of-injury-followup.first-name post surgical?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522913388,
+  "fallbackIntent": false,
+  "events": []
+}

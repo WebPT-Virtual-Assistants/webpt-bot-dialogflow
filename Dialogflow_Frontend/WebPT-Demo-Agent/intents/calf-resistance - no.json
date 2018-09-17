@@ -1,0 +1,35 @@
+{
+  "id": "36f4d630-dcb9-4aa0-a720-d71b0ea6741b",
+  "parentId": "c6650490-03ab-46f0-afc6-24bc9b125fa2",
+  "rootParentId": "8b7426b7-9b82-493b-b195-39d013fdac48",
+  "name": "calf-resistance - no",
+  "auto": true,
+  "contexts": [
+    "calf-resistance-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "initiate-form.initiate-form-custom.mechanism-of-injury-yes.pop-or-crack-yes.swelling-yes.Lachmans-custom-2.tenderness-yes.calf-resistance-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "End of sample flow chart."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522913659,
+  "fallbackIntent": false,
+  "events": []
+}

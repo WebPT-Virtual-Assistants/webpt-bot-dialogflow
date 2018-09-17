@@ -1,0 +1,41 @@
+{
+  "id": "7f118c7a-698e-40d5-ab8c-3dbfab80a34c",
+  "parentId": "aecf9cd0-4fc8-47ab-b528-4e28936766eb",
+  "rootParentId": "8b7426b7-9b82-493b-b195-39d013fdac48",
+  "name": "swelling2",
+  "auto": true,
+  "contexts": [
+    "new-onset-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "initiate-form.initiate-form-custom.mechanism-of-injury-no.post-surgical-yes.knee-arthropkasty-yes.new-onset-yes",
+      "affectedContexts": [
+        {
+          "name": "swelling2-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Is there swelling present in the lower leg or knee?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522952813,
+  "fallbackIntent": false,
+  "events": []
+}

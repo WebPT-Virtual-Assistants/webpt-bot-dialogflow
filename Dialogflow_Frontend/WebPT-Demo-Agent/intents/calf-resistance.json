@@ -1,0 +1,41 @@
+{
+  "id": "c6650490-03ab-46f0-afc6-24bc9b125fa2",
+  "parentId": "6698db7f-8d3e-4a35-aa94-c5582b90dcd4",
+  "rootParentId": "8b7426b7-9b82-493b-b195-39d013fdac48",
+  "name": "calf-resistance",
+  "auto": true,
+  "contexts": [
+    "tenderness-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "initiate-form.initiate-form-custom.mechanism-of-injury-yes.pop-or-crack-yes.swelling-yes.Lachmans-custom-2.tenderness-yes",
+      "affectedContexts": [
+        {
+          "name": "calf-resistance-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Was there pain with resistance calf testing?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522913609,
+  "fallbackIntent": false,
+  "events": []
+}

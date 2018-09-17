@@ -1,0 +1,98 @@
+[
+  {
+    "id": "d3bfd03a-fbdf-4a2e-bf50-6adf13eb4c03",
+    "data": [
+      {
+        "text": "He is",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522906711
+  },
+  {
+    "id": "1e4b9ab5-390c-455d-b64a-7bc78d5a77c7",
+    "data": [
+      {
+        "text": "sure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 1522906711
+  },
+  {
+    "id": "bde4a53a-c1af-4f27-b23f-cf8a406b63b5",
+    "data": [
+      {
+        "text": "exactly",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522906711
+  },
+  {
+    "id": "d9febb92-ce98-4ce9-8c1a-f1f13de40935",
+    "data": [
+      {
+        "text": "yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522906711
+  },
+  {
+    "id": "8966f307-2c5f-4197-a3ca-aceb551aba87",
+    "data": [
+      {
+        "text": "confirm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1522906711
+  },
+  {
+    "id": "eeda8750-a814-4703-a938-aea14f81e724",
+    "data": [
+      {
+        "text": "She is",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522906711
+  },
+  {
+    "id": "197cedf5-9c83-4e90-9d8d-cfb3070dbf0c",
+    "data": [
+      {
+        "text": "that\u0027s correct",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522906711
+  },
+  {
+    "id": "5457151f-9014-4cac-a1f6-38d34085de73",
+    "data": [
+      {
+        "text": "sounds good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1522906711
+  }
+]

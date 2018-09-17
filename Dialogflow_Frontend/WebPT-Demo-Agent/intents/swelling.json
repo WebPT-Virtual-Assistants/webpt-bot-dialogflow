@@ -1,0 +1,41 @@
+{
+  "id": "2b2a56cc-aed2-4573-a71e-81643c880d3f",
+  "parentId": "550fdd5e-003e-4b5e-bd17-273fc39abb4b",
+  "rootParentId": "8b7426b7-9b82-493b-b195-39d013fdac48",
+  "name": "swelling",
+  "auto": true,
+  "contexts": [
+    "pop-or-crack-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "initiate-form.initiate-form-custom.mechanism-of-injury-yes.pop-or-crack-yes",
+      "affectedContexts": [
+        {
+          "name": "swelling-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Did #pop-or-crack-followup.first-name experience swelling in the lower leg or knee?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522913419,
+  "fallbackIntent": false,
+  "events": []
+}

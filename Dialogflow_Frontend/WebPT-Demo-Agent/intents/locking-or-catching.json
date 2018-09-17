@@ -1,0 +1,52 @@
+{
+  "id": "b60ef347-85b4-40d8-af0b-bfbee8a9808b",
+  "parentId": "550fdd5e-003e-4b5e-bd17-273fc39abb4b",
+  "rootParentId": "8b7426b7-9b82-493b-b195-39d013fdac48",
+  "name": "locking-or-catching",
+  "auto": true,
+  "contexts": [
+    "pop-or-crack-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "initiate-form.initiate-form-custom.mechanism-of-injury-yes.pop-or-crack-no",
+      "affectedContexts": [
+        {
+          "name": "locking-or-catching-followup",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "locking-or-catching-join",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "85daf5ef-4739-4eba-8200-739f861ccf36",
+          "name": "first-name",
+          "value": "#pop-or-crack-followup.first-name"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Did #pop-or-crack-followup.first-name experience locking or catching at the knee?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522950008,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "value": "Blood Pressure",
+    "synonyms": [
+      "Blood Pressure",
+      "BP"
+    ]
+  },
+  {
+    "value": "Respiratory Rate",
+    "synonyms": [
+      "Respiratory Rate",
+      "RR"
+    ]
+  },
+  {
+    "value": "Heart Rate",
+    "synonyms": [
+      "Heart Rate",
+      "Pulse Rate",
+      "PR"
+    ]
+  },
+  {
+    "value": "Body Temperature",
+    "synonyms": [
+      "Body Temperature",
+      "Temperature",
+      "Body Temp"
+    ]
+  },
+  {
+    "value": "pain scale",
+    "synonyms": [
+      "pain scale"
+    ]
+  }
+]

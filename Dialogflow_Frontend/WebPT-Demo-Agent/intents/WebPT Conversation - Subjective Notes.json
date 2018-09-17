@@ -1,0 +1,71 @@
+{
+  "id": "f2e06650-c3ad-4df2-94dc-05b8c0d0e438",
+  "name": "WebPT Conversation - Subjective Notes",
+  "auto": true,
+  "contexts": [
+    "WebPTConversation-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "WebPTConversation-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8153e0c6-a511-46fe-9321-5ef895c57d60",
+          "required": false,
+          "dataType": "@Body_Part",
+          "name": "Body_Part",
+          "value": "$Body_Part",
+          "isList": false
+        },
+        {
+          "id": "260bb163-57d0-402a-8e31-ef1296f845bb",
+          "required": false,
+          "dataType": "@vitals",
+          "name": "vitals",
+          "value": "$vitals",
+          "isList": false
+        },
+        {
+          "id": "7db67613-b89b-4b25-a717-8121228c0242",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        },
+        {
+          "id": "c2266625-8d19-4603-a6c1-f907403ced29",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number1",
+          "value": "$number1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "#WebPTConversation-followup.given-name has a pain scale of $number1 on his $Body_Part"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1536104756,
+  "fallbackIntent": false,
+  "events": []
+}

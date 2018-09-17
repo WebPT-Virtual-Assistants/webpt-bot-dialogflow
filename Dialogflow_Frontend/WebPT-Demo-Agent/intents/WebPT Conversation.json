@@ -1,0 +1,70 @@
+{
+  "id": "f5cd0483-b07a-4420-8085-45c1b2d926c4",
+  "name": "WebPT Conversation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "WebPTConversation-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "beb2802d-2799-458e-b9fc-5f6b788c876c",
+          "required": true,
+          "dataType": "@Test_Type",
+          "name": "Test_Name",
+          "value": "$Test_Name",
+          "isList": false
+        },
+        {
+          "id": "24f21570-ded2-4b6f-9e4f-f55c278e47b5",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        },
+        {
+          "id": "d48ac47d-81df-436f-8e8e-1cbaadafbfb6",
+          "required": false,
+          "dataType": "@sys.last-name",
+          "name": "last-name",
+          "value": "$last-name",
+          "isList": false
+        },
+        {
+          "id": "3fea1327-b2fa-4473-ac6a-057ed807928a",
+          "required": false,
+          "dataType": "@patient-id",
+          "name": "patient-id",
+          "value": "$patient-id",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Begin $Test_Name notes for $given-name $last-name"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1536183385,
+  "fallbackIntent": false,
+  "events": []
+}
