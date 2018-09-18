@@ -1,8 +1,10 @@
 {
-  "id": "22fb74ba-040c-4055-a2b3-4ba356edb351",
-  "name": "WebPT Conversation",
+  "id": "94a44e92-8eb7-4215-8dcd-c308b6255931",
+  "name": "WebPT Assessment Starter",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "WebPTConversation-followup"
+  ],
   "responses": [
     {
       "resetContexts": false,
@@ -11,23 +13,19 @@
           "name": "WebPTConversation-followup",
           "parameters": {},
           "lifespan": 5
+        },
+        {
+          "name": "WebPTAssessmentStarter-followup",
+          "parameters": {},
+          "lifespan": 2
         }
       ],
       "parameters": [
         {
-          "id": "a1cc1360-b0ed-4893-88ac-de5268a5f9aa",
-          "required": false,
-          "dataType": "@last-name",
-          "name": "last-name",
-          "value": "$last-name",
-          "isList": false
-        },
-        {
-          "id": "e9ed3b64-9932-4969-ad38-8a447ae40989",
-          "required": false,
-          "dataType": "@sys.given-name",
-          "name": "given-name",
-          "value": "$given-name",
+          "id": "ca7ecd1e-bdf3-47de-b1a6-4504b24c16eb",
+          "dataType": "@test-type",
+          "name": "test-type",
+          "value": "$test-type",
           "isList": false
         }
       ],
@@ -35,7 +33,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "New SOAP Note for $given-name $last-name"
+          "speech": "$test-type notes for #WebPTConversation-followup.given-name #WebPTConversation-followup.last-name"
         }
       ],
       "defaultResponsePlatforms": {
@@ -47,7 +45,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1537248932,
+  "lastUpdate": 1537288821,
   "fallbackIntent": false,
   "events": []
 }

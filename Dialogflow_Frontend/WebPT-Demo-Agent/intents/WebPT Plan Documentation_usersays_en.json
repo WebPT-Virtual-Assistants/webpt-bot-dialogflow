@@ -1,0 +1,23 @@
+[
+  {
+    "id": "250f5764-1b22-4395-9112-06f4bed98a41",
+    "data": [
+      {
+        "text": "Continue with current treatment ",
+        "userDefined": false
+      },
+      {
+        "text": "plan",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": ". Caution - patient needs frequent verbal cuing with proper lifting techniques.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537289245
+  }
+]

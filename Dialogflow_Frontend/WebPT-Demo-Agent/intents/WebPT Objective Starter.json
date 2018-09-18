@@ -1,0 +1,68 @@
+{
+  "id": "031b9334-1f12-49d2-84c4-afcaf4ef1245",
+  "name": "WebPT Objective Starter",
+  "auto": true,
+  "contexts": [
+    "WebPTConversation-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "WebPTObjectiveStarter-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "WebPTConversation-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "55ee167e-eb85-4cbe-b907-63f6afcfbc53",
+          "required": false,
+          "dataType": "@test-type",
+          "name": "test-type",
+          "value": "$test-type",
+          "isList": false
+        },
+        {
+          "id": "6e5f3076-56f6-496a-be06-f5ff63b3707e",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        },
+        {
+          "id": "c20847fc-c645-4ac8-92b2-aeb178ba288f",
+          "required": false,
+          "dataType": "@last-name",
+          "name": "last-name",
+          "value": "$last-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Begin $test-type notes for #WebPTConversation-followup.given-name #WebPTConversation-followup.last-name"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537309020,
+  "fallbackIntent": false,
+  "events": []
+}

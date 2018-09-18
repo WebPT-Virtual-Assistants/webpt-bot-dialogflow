@@ -1,0 +1,98 @@
+[
+  {
+    "id": "fbd4d613-a09d-453e-a1d9-d1acedb8e3e8",
+    "data": [
+      {
+        "text": "Begin ",
+        "userDefined": false
+      },
+      {
+        "text": "Objective",
+        "alias": "Test_Type",
+        "meta": "@Test_Type",
+        "userDefined": false
+      },
+      {
+        "text": " Notes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537249652
+  },
+  {
+    "id": "efedc1d2-4f3a-4595-9f74-1521cc2794c0",
+    "data": [
+      {
+        "text": "Let\u0027s document ",
+        "userDefined": false
+      },
+      {
+        "text": "Objective",
+        "alias": "Test_Type",
+        "meta": "@Test_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537248734
+  },
+  {
+    "id": "e73926c0-1045-4c8d-9805-e34b617f0602",
+    "data": [
+      {
+        "text": "Document ",
+        "userDefined": false
+      },
+      {
+        "text": "Objective",
+        "alias": "Test_Type",
+        "meta": "@Test_Type",
+        "userDefined": true
+      },
+      {
+        "text": " SOAP notes for ",
+        "userDefined": false
+      },
+      {
+        "text": "Andrew",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Nguyen",
+        "alias": "last-name",
+        "meta": "@last-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537247985
+  },
+  {
+    "id": "c0471bf3-508d-406f-b844-a05e49a2b81f",
+    "data": [
+      {
+        "text": "Now document ",
+        "userDefined": false
+      },
+      {
+        "text": "Objective",
+        "alias": "Test_Type",
+        "meta": "@Test_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537247216
+  }
+]

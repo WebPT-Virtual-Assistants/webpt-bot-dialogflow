@@ -1,0 +1,88 @@
+[
+  {
+    "id": "dbb7a8fb-ab89-4e91-a214-5bfd1ca31184",
+    "data": [
+      {
+        "text": "Create a ",
+        "userDefined": false
+      },
+      {
+        "text": "plan",
+        "alias": "Test_Type",
+        "meta": "@Test_Type",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "Jane",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537289015
+  },
+  {
+    "id": "2a117d6e-90b7-47c1-9cdc-d4a4507871a3",
+    "data": [
+      {
+        "text": "Begin ",
+        "userDefined": false
+      },
+      {
+        "text": "Planning",
+        "alias": "Test_Type",
+        "meta": "@Test_Type",
+        "userDefined": false
+      },
+      {
+        "text": " section",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537289015
+  },
+  {
+    "id": "892a85af-57be-4ed8-bf3e-a8c50a78ff01",
+    "data": [
+      {
+        "text": "Let\u0027s document the ",
+        "userDefined": false
+      },
+      {
+        "text": "plan",
+        "alias": "Test_Type",
+        "meta": "@Test_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537289015
+  },
+  {
+    "id": "28740dc3-db88-42af-a710-9413e0c99150",
+    "data": [
+      {
+        "text": "Now document the ",
+        "userDefined": false
+      },
+      {
+        "text": "Plan",
+        "alias": "Test_Type",
+        "meta": "@Test_Type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537289015
+  }
+]

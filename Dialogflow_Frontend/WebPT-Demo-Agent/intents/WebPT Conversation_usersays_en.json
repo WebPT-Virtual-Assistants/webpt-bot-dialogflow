@@ -1,54 +1,44 @@
 [
   {
-    "id": "94ef1b31-baa8-4fbe-ab53-8c23357ef015",
+    "id": "676aa1dc-f163-43c7-b1c5-31935b830af2",
     "data": [
       {
-        "text": "Document ",
+        "text": "Document SOAP note for ",
         "userDefined": false
       },
       {
-        "text": "Subjective",
-        "alias": "Test_Name",
-        "meta": "@Test_Type",
-        "userDefined": true
-      },
-      {
-        "text": " SOAP notes for ",
-        "userDefined": false
-      },
-      {
-        "text": "Andrew",
+        "text": "Nick",
         "alias": "given-name",
         "meta": "@sys.given-name",
-        "userDefined": true
+        "userDefined": false
       },
       {
         "text": " ",
         "userDefined": false
       },
       {
-        "text": "Nguyen",
+        "text": "Debeurre",
         "alias": "last-name",
-        "meta": "@sys.last-name",
+        "meta": "@last-name",
         "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1536099857
+    "updated": 1537248675
   },
   {
-    "id": "b45f96ba-e02b-4a79-997b-74b4f5ba26b0",
+    "id": "2362e0ed-67c6-4562-876f-effb2e346993",
     "data": [
       {
-        "text": "Begin SOAP notes for ",
+        "text": "Let\u0027s begin a new SOAP note for ",
         "userDefined": false
       },
       {
         "text": "Matt",
         "alias": "given-name",
         "meta": "@sys.given-name",
-        "userDefined": true
+        "userDefined": false
       },
       {
         "text": " ",
@@ -57,50 +47,40 @@
       {
         "text": "Davis",
         "alias": "last-name",
-        "meta": "@sys.last-name",
-        "userDefined": true
-      },
-      {
-        "text": " and lets document ",
+        "meta": "@last-name",
         "userDefined": false
-      },
-      {
-        "text": "Subjective",
-        "alias": "Test_Name",
-        "meta": "@Test_Type",
-        "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1536099629
+    "updated": 1537248675
   },
   {
-    "id": "2f2e3680-0270-4147-82d1-7f48e8901cb5",
+    "id": "d33abd67-7104-4208-90e3-767666b3a353",
     "data": [
       {
-        "text": "Begin SOAP notes for ",
+        "text": "Begin SOAP note for ",
         "userDefined": false
       },
       {
-        "text": "A23R",
-        "alias": "patient-id",
-        "meta": "@patient-id",
-        "userDefined": true
-      },
-      {
-        "text": " and lets document ",
+        "text": "Andrew",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
         "userDefined": false
       },
       {
-        "text": "Subjective",
-        "alias": "Test_Name",
-        "meta": "@Test_Type",
-        "userDefined": true
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Nguyen",
+        "alias": "last-name",
+        "meta": "@last-name",
+        "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1536103743
+    "updated": 1537248675
   }
 ]

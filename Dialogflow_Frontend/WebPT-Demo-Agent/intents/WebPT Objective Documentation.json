@@ -1,0 +1,63 @@
+{
+  "id": "0fc294f1-1132-4b2d-890b-ae4cff723846",
+  "parentId": "031b9334-1f12-49d2-84c4-afcaf4ef1245",
+  "rootParentId": "031b9334-1f12-49d2-84c4-afcaf4ef1245",
+  "name": "WebPT Objective Documentation",
+  "auto": true,
+  "contexts": [
+    "WebPTObjectiveStarter-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "WebPTObjectiveStarter.WebPTObjectiveStarter-custom",
+      "affectedContexts": [
+        {
+          "name": "WebPTObjectiveStarter-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "247c3b02-4072-4049-b2a7-783b01ec2198",
+          "dataType": "@vitals",
+          "name": "vitals",
+          "value": "$vitals",
+          "isList": true
+        },
+        {
+          "id": "1993436b-21a7-45fa-9a2b-48179f5b1c0a",
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        },
+        {
+          "id": "c493029e-641b-4d98-ba88-8ec6b858fffc",
+          "dataType": "@sys.unit-information-name",
+          "name": "unit-information-name",
+          "value": "$unit-information-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537308917,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "c7f9679a-ada9-472c-82f7-bae647a244dc",
+  "parentId": "031b9334-1f12-49d2-84c4-afcaf4ef1245",
+  "rootParentId": "031b9334-1f12-49d2-84c4-afcaf4ef1245",
+  "name": "WebPT Objective Treatments",
+  "auto": true,
+  "contexts": [
+    "WebPTObjectiveStarter-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "WebPTObjectiveStarter.WebPTObjectiveStarter-custom",
+      "affectedContexts": [
+        {
+          "name": "WebPTObjectiveStarter-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c6a4489f-dc2f-466c-ad98-58720ca3f1bb",
+          "dataType": "@sys.duration",
+          "name": "duration",
+          "value": "$duration",
+          "isList": false
+        },
+        {
+          "id": "6a17493b-1c58-4c22-893b-5f448cfb437d",
+          "dataType": "@sys.unit-weight",
+          "name": "unit-weight",
+          "value": "$unit-weight",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537308561,
+  "fallbackIntent": false,
+  "events": []
+}

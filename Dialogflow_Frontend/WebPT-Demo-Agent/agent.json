@@ -43,7 +43,7 @@
   },
   "defaultTimezone": "America/Los_Angeles",
   "webhook": {
-    "url": "https://web-pt.herokuapp.com/webhook",
+    "url": "https://webpt-nodejs.herokuapp.com/webhook",
     "headers": {
       "": ""
     },

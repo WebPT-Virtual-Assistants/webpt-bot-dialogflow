@@ -1,0 +1,106 @@
+[
+  {
+    "id": "4878354f-6941-44e1-993c-8184ebeb1bd8",
+    "data": [
+      {
+        "text": "Pain on her ",
+        "userDefined": false
+      },
+      {
+        "text": "knee",
+        "alias": "Body_Part",
+        "meta": "@Body_Part",
+        "userDefined": false
+      },
+      {
+        "text": " has decreased to a pain of ",
+        "userDefined": false
+      },
+      {
+        "text": "3/10",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537289514
+  },
+  {
+    "id": "8fef77d7-aa82-4f46-98a2-73b1130f6c1c",
+    "data": [
+      {
+        "text": "pain on my ",
+        "userDefined": false
+      },
+      {
+        "text": "knee",
+        "alias": "Body_Part",
+        "meta": "@Body_Part",
+        "userDefined": false
+      },
+      {
+        "text": " has improved from pain scaled of ",
+        "userDefined": false
+      },
+      {
+        "text": "7/10",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "5/10",
+        "alias": "number1",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0ca967b2-c3ec-4043-b95a-cf761d0cb38d",
+    "data": [
+      {
+        "text": "Pain on my ",
+        "userDefined": false
+      },
+      {
+        "text": "back",
+        "alias": "Body_Part",
+        "meta": "@Body_Part",
+        "userDefined": true
+      },
+      {
+        "text": " has improved from pain scale of ",
+        "userDefined": false
+      },
+      {
+        "text": "7 out of 10",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "3 out of 10",
+        "alias": "number1",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537247026
+  }
+]

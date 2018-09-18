@@ -1,0 +1,42 @@
+{
+  "id": "52fde1b0-c225-4f34-b6e8-db7c4f2e7bc4",
+  "parentId": "94a44e92-8eb7-4215-8dcd-c308b6255931",
+  "rootParentId": "94a44e92-8eb7-4215-8dcd-c308b6255931",
+  "name": "WebPT Assessment Documentation",
+  "auto": true,
+  "contexts": [
+    "WebPTConversation-followup",
+    "WebPTAssessmentStarter-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "WebPTAssessmentStarter.WebPTAssessmentStarter-custom",
+      "affectedContexts": [
+        {
+          "name": "WebPTAssessmentStarter-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537289134,
+  "fallbackIntent": false,
+  "events": []
+}

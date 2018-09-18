@@ -1,0 +1,132 @@
+[
+  {
+    "id": "3ba93f9e-abf7-4a7a-a5a8-8962a8374b24",
+    "data": [
+      {
+        "text": "Proper lifting techniques with ",
+        "userDefined": false
+      },
+      {
+        "text": "10 lb",
+        "alias": "unit-weight",
+        "meta": "@sys.unit-weight",
+        "userDefined": false
+      },
+      {
+        "text": " box lift for ",
+        "userDefined": false
+      },
+      {
+        "text": "20 reps",
+        "alias": "duration",
+        "meta": "@sys.duration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537308561
+  },
+  {
+    "id": "1d570d13-54f2-4c68-b166-4db62ff3ee10",
+    "data": [
+      {
+        "text": "Prone lumbar extensions for ",
+        "userDefined": false
+      },
+      {
+        "text": "20 reps",
+        "alias": "duration",
+        "meta": "@sys.duration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537308561
+  },
+  {
+    "id": "b7c12a08-fac8-4164-beb7-ab0adff1dcfb",
+    "data": [
+      {
+        "text": "Ice ",
+        "userDefined": false
+      },
+      {
+        "text": "pack",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " on lumbar area for ",
+        "userDefined": false
+      },
+      {
+        "text": "20 minutes",
+        "alias": "duration",
+        "meta": "@sys.duration",
+        "userDefined": false
+      },
+      {
+        "text": " in prone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537308561
+  },
+  {
+    "id": "ed21af5d-b734-4909-a436-6989c1a69975",
+    "data": [
+      {
+        "text": "Deep kneading massage on lumbar paraspinal muscles for ",
+        "userDefined": false
+      },
+      {
+        "text": "5 minutes",
+        "alias": "duration",
+        "meta": "@sys.duration",
+        "userDefined": false
+      },
+      {
+        "text": " while prone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537308561
+  },
+  {
+    "id": "467e72ba-7e02-4542-8a9c-ff7a6b59041a",
+    "data": [
+      {
+        "text": "Hot ",
+        "userDefined": false
+      },
+      {
+        "text": "pack",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " on lumbar area for ",
+        "userDefined": false
+      },
+      {
+        "text": "20 minutes",
+        "alias": "duration",
+        "meta": "@sys.duration",
+        "userDefined": false
+      },
+      {
+        "text": " while prone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537308561
+  }
+]

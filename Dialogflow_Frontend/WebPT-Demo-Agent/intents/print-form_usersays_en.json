@@ -1,5 +1,41 @@
 [
   {
+    "id": "d434f510-b71d-4db2-bffe-07b29a669059",
+    "data": [
+      {
+        "text": "Show results",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537249828
+  },
+  {
+    "id": "302aabad-821c-4561-8b7c-c64cc4895b25",
+    "data": [
+      {
+        "text": "Show form",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537249828
+  },
+  {
+    "id": "055cbe26-ed2e-48a4-ac2d-19d6ceeddfa4",
+    "data": [
+      {
+        "text": "Output form",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537249828
+  },
+  {
     "id": "0a9bda89-cae1-4c3e-b8de-86eed6eeadcf",
     "data": [
       {
