@@ -1,20 +1,24 @@
 {
   "id": "52fde1b0-c225-4f34-b6e8-db7c4f2e7bc4",
-  "parentId": "94a44e92-8eb7-4215-8dcd-c308b6255931",
-  "rootParentId": "94a44e92-8eb7-4215-8dcd-c308b6255931",
+  "parentId": "f5cd0483-b07a-4420-8085-45c1b2d926c4",
+  "rootParentId": "f5cd0483-b07a-4420-8085-45c1b2d926c4",
   "name": "WebPT Assessment Documentation",
   "auto": true,
   "contexts": [
-    "WebPTConversation-followup",
-    "WebPTAssessmentStarter-followup"
+    "WebPTStarter-followup"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "WebPTAssessmentStarter.WebPTAssessmentStarter-custom",
+      "action": "WebPTStarter.WebPTStarter-custom",
       "affectedContexts": [
         {
-          "name": "WebPTAssessmentStarter-followup",
+          "name": "WebPTStarter-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "WebPTConversation-followup",
           "parameters": {},
           "lifespan": 5
         }
@@ -24,7 +28,10 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": []
+          "speech": [
+            "Got it",
+            "Okay"
+          ]
         }
       ],
       "defaultResponsePlatforms": {
@@ -34,9 +41,9 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1537289134,
+  "lastUpdate": 1537468485,
   "fallbackIntent": false,
   "events": []
 }

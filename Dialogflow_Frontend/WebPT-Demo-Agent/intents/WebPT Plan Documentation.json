@@ -1,20 +1,24 @@
 {
   "id": "50055b23-4df5-46eb-aae6-b029b84f7bb4",
-  "parentId": "746780d1-4f31-4658-82a3-eaad8a6062aa",
-  "rootParentId": "746780d1-4f31-4658-82a3-eaad8a6062aa",
+  "parentId": "f5cd0483-b07a-4420-8085-45c1b2d926c4",
+  "rootParentId": "f5cd0483-b07a-4420-8085-45c1b2d926c4",
   "name": "WebPT Plan Documentation",
   "auto": true,
   "contexts": [
-    "WebPTPlanStarter-followup",
-    "WebPTConversation-followup"
+    "WebPTStarter-followup"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "WebPTPlanStarter.WebPTPlanStarter-custom",
+      "action": "WebPTStarter.WebPTStarter-custom",
       "affectedContexts": [
         {
-          "name": "WebPTPlanStarter-followup",
+          "name": "WebPTStarter-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "WebPTConversation-followup",
           "parameters": {},
           "lifespan": 5
         }
@@ -24,7 +28,10 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": []
+          "speech": [
+            "Got it",
+            "Okay"
+          ]
         }
       ],
       "defaultResponsePlatforms": {
@@ -34,9 +41,9 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1537289245,
+  "lastUpdate": 1537468498,
   "fallbackIntent": false,
   "events": []
 }

@@ -5,12 +5,12 @@
   "name": "WebPT Subjective Documentation",
   "auto": true,
   "contexts": [
-    "WebPTSubjectiveStarter-followup"
+    "WebPTStarter-followup"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "WebPTSubjectiveStarter.WebPTSubjectiveStarter-custom",
+      "action": "WebPTStarter.WebPTStarter-custom",
       "affectedContexts": [
         {
           "name": "WebPTConversation-followup",
@@ -18,7 +18,7 @@
           "lifespan": 5
         },
         {
-          "name": "WebPTSubjectiveStarter-followup",
+          "name": "WebPTStarter-followup",
           "parameters": {},
           "lifespan": 5
         }
@@ -63,9 +63,9 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1537289514,
+  "lastUpdate": 1537467280,
   "fallbackIntent": false,
   "events": []
 }

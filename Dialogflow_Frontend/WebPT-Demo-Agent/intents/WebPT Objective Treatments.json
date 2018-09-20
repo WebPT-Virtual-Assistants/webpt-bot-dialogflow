@@ -1,19 +1,24 @@
 {
   "id": "c7f9679a-ada9-472c-82f7-bae647a244dc",
-  "parentId": "031b9334-1f12-49d2-84c4-afcaf4ef1245",
-  "rootParentId": "031b9334-1f12-49d2-84c4-afcaf4ef1245",
+  "parentId": "f5cd0483-b07a-4420-8085-45c1b2d926c4",
+  "rootParentId": "f5cd0483-b07a-4420-8085-45c1b2d926c4",
   "name": "WebPT Objective Treatments",
   "auto": true,
   "contexts": [
-    "WebPTObjectiveStarter-followup"
+    "WebPTStarter-followup"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "WebPTObjectiveStarter.WebPTObjectiveStarter-custom",
+      "action": "WebPTStarter.WebPTStarter-custom",
       "affectedContexts": [
         {
-          "name": "WebPTObjectiveStarter-followup",
+          "name": "WebPTStarter-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "WebPTConversation-followup",
           "parameters": {},
           "lifespan": 5
         }
@@ -21,6 +26,7 @@
       "parameters": [
         {
           "id": "c6a4489f-dc2f-466c-ad98-58720ca3f1bb",
+          "required": false,
           "dataType": "@sys.duration",
           "name": "duration",
           "value": "$duration",
@@ -28,6 +34,7 @@
         },
         {
           "id": "6a17493b-1c58-4c22-893b-5f448cfb437d",
+          "required": false,
           "dataType": "@sys.unit-weight",
           "name": "unit-weight",
           "value": "$unit-weight",
@@ -38,7 +45,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": []
+          "speech": "Got it"
         }
       ],
       "defaultResponsePlatforms": {
@@ -48,9 +55,9 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1537308561,
+  "lastUpdate": 1537468466,
   "fallbackIntent": false,
   "events": []
 }

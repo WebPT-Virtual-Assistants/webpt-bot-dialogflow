@@ -1,6 +1,6 @@
 {
-  "id": "94a44e92-8eb7-4215-8dcd-c308b6255931",
-  "name": "WebPT Assessment Starter",
+  "id": "f5cd0483-b07a-4420-8085-45c1b2d926c4",
+  "name": "WebPT Starter",
   "auto": true,
   "contexts": [
     "WebPTConversation-followup"
@@ -10,19 +10,20 @@
       "resetContexts": false,
       "affectedContexts": [
         {
+          "name": "WebPTStarter-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
           "name": "WebPTConversation-followup",
           "parameters": {},
           "lifespan": 5
-        },
-        {
-          "name": "WebPTAssessmentStarter-followup",
-          "parameters": {},
-          "lifespan": 2
         }
       ],
       "parameters": [
         {
-          "id": "ca7ecd1e-bdf3-47de-b1a6-4504b24c16eb",
+          "id": "beb2802d-2799-458e-b9fc-5f6b788c876c",
+          "required": true,
           "dataType": "@test-type",
           "name": "test-type",
           "value": "$test-type",
@@ -33,7 +34,10 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "$test-type notes for #WebPTConversation-followup.given-name #WebPTConversation-followup.last-name"
+          "speech": [
+            "Begin $test-type notes for #WebPTConversation-followup.given-name #WebPTConversation-followup.last-name",
+            "New $test-type section entry created for #WebPTConversation-followup.given-name #WebPTConversation-followup.last-name"
+          ]
         }
       ],
       "defaultResponsePlatforms": {
@@ -43,9 +47,9 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1537288821,
+  "lastUpdate": 1537467872,
   "fallbackIntent": false,
   "events": []
 }

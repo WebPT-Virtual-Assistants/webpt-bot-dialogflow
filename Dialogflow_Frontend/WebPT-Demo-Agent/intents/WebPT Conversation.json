@@ -16,10 +16,24 @@
       "parameters": [
         {
           "id": "a1cc1360-b0ed-4893-88ac-de5268a5f9aa",
-          "required": false,
+          "required": true,
           "dataType": "@last-name",
           "name": "last-name",
           "value": "$last-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please repeat the patient\u0027s last name."
+            },
+            {
+              "lang": "en",
+              "value": "Can you say the patient\u0027s last name again? I didn\u0027t get that."
+            },
+            {
+              "lang": "en",
+              "value": "Repeat the last name of the patient."
+            }
+          ],
           "isList": false
         },
         {
@@ -45,9 +59,9 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1537248932,
+  "lastUpdate": 1537468803,
   "fallbackIntent": false,
   "events": []
 }
