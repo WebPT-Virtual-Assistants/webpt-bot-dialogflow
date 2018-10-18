@@ -1,6 +1,6 @@
 {
-  "id": "6a6c06f8-55cb-4de2-83c3-2cec27a07bfd",
-  "name": "Default Welcome Intent",
+  "id": "05f6b627-965d-4868-8647-66ddbd483cfe",
+  "name": "Welcome Intent",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -13,12 +13,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": [
-            "Hi!",
-            "Hello!",
-            "Good day!",
-            "Greetings!"
-          ]
+          "speech": "Welcome to WebPT\u0027s Virtual Agent. Let\u0027s get started."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -26,12 +21,16 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
+  "lastUpdate": 1539842081,
   "fallbackIntent": false,
   "events": [
     {
       "name": "WELCOME"
+    },
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
     }
   ]
 }

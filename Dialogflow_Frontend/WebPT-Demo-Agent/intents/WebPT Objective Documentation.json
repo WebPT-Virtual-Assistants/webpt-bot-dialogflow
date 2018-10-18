@@ -54,9 +54,11 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Copy that",
-            "Okay",
-            "Got it"
+            "#WebPTConversation-followup.give-name has $vitals of $number $unit-information-name",
+            "#WebPTConversation-followup.give-name has $vitals of $number",
+            "New entry for #WebPTConversation-followup.give-name $vitals",
+            "Unable to parse vitals information for #WebPTConversation-followup.give-name",
+            "Unable to parse any vitals information for patient"
           ]
         }
       ],
@@ -67,9 +69,9 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1537468531,
+  "lastUpdate": 1539838225,
   "fallbackIntent": false,
   "events": []
 }

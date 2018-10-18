@@ -11,13 +11,48 @@
       "parameters": [],
       "messages": [
         {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "textToSpeech": "Form printed"
+            },
+            {
+              "textToSpeech": "Error"
+            }
+          ]
+        },
+        {
+          "type": "media_content",
+          "platform": "google",
+          "lang": "en",
+          "mediaType": "AUDIO",
+          "mediaObjects": [
+            {
+              "name": "Error",
+              "contentUrl": "http://soundbible.com/mp3/Computer%20Error%20Alert-SoundBible.com-783113881.mp3"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Hello"
+            }
+          ]
+        },
+        {
           "type": 0,
           "lang": "en",
           "speech": "Form is printed in console log!"
         }
       ],
       "defaultResponsePlatforms": {
-        "google": true
+        "google": false
       },
       "speech": []
     }
@@ -25,7 +60,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1537249828,
+  "lastUpdate": 1539301693,
   "fallbackIntent": false,
   "events": []
 }

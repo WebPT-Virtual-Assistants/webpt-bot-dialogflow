@@ -1,20 +1,8 @@
 [
   {
-    "value": "Objective",
-    "synonyms": [
-      "Objective"
-    ]
-  },
-  {
     "value": "Subjective",
     "synonyms": [
       "Subjective"
-    ]
-  },
-  {
-    "value": "Assessment",
-    "synonyms": [
-      "Assessment"
     ]
   },
   {
@@ -22,6 +10,18 @@
     "synonyms": [
       "Plan",
       "Planning"
+    ]
+  },
+  {
+    "value": "Objective",
+    "synonyms": [
+      "Objective"
+    ]
+  },
+  {
+    "value": "Assessment",
+    "synonyms": [
+      "Assessment"
     ]
   }
 ]

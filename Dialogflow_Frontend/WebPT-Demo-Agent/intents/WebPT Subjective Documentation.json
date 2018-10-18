@@ -26,10 +26,20 @@
       "parameters": [
         {
           "id": "74013336-a628-42ec-9d47-8f44857c0bb7",
-          "required": false,
+          "required": true,
           "dataType": "@body-part",
           "name": "body-part",
           "value": "$body-part",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please repeat the body part."
+            },
+            {
+              "lang": "en",
+              "value": "Please repeat the patient\u0027s affected area."
+            }
+          ],
           "isList": false
         },
         {
@@ -53,7 +63,11 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "#WebPTConversation-followup.given-name now has $body-part pain of $number1"
+          "speech": [
+            "#WebPTConversation-followup.given-name now has $body-part pain of $number1",
+            "New subjective documentation for #WebPTConversation-followup.given-name",
+            "Unable to identify subjective information for patient"
+          ]
         }
       ],
       "defaultResponsePlatforms": {
@@ -63,9 +77,9 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1537467280,
+  "lastUpdate": 1539843010,
   "fallbackIntent": false,
   "events": []
 }

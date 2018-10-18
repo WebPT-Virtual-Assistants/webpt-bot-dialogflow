@@ -45,7 +45,10 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Got it"
+          "speech": [
+            "Patient exercised for $duration",
+            "The objective treatment was noted."
+          ]
         }
       ],
       "defaultResponsePlatforms": {
@@ -55,9 +58,9 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1537468466,
+  "lastUpdate": 1539838394,
   "fallbackIntent": false,
   "events": []
 }

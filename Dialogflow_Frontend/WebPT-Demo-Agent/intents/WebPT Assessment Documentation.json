@@ -29,8 +29,8 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Got it",
-            "Okay"
+            "Noted assessment for #WebPTConversation-followup.given-name",
+            "Noted assessment for patient."
           ]
         }
       ],
@@ -41,9 +41,9 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1537468485,
+  "lastUpdate": 1539838381,
   "fallbackIntent": false,
   "events": []
 }

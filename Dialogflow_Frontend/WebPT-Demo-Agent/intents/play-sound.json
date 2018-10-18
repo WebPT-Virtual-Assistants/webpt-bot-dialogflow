@@ -1,0 +1,28 @@
+{
+  "id": "37afd1bd-30d0-4baa-8791-8e71245a8116",
+  "name": "play-sound",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "User attempted to play a sound."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1539839825,
+  "fallbackIntent": false,
+  "events": []
+}

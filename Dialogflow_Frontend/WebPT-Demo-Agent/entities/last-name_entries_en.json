@@ -1,14 +1,8 @@
 [
   {
-    "value": "@sys.last-name",
+    "value": "Debeurre",
     "synonyms": [
-      "@sys.last-name"
-    ]
-  },
-  {
-    "value": "@custom-lastnames",
-    "synonyms": [
-      "@custom-lastnames"
+      "Debeurre"
     ]
   },
   {
@@ -18,9 +12,15 @@
     ]
   },
   {
-    "value": "Debeurre",
+    "value": "@custom-lastnames",
     "synonyms": [
-      "Debeurre"
+      "@custom-lastnames"
+    ]
+  },
+  {
+    "value": "@sys.last-name",
+    "synonyms": [
+      "@sys.last-name"
     ]
   }
 ]

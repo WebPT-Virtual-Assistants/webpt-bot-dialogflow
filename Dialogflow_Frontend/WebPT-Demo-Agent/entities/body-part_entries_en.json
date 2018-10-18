@@ -1,8 +1,14 @@
 [
   {
-    "value": "elbow",
+    "value": "shoulder",
     "synonyms": [
-      "Elbow"
+      "shoulder"
+    ]
+  },
+  {
+    "value": "chest",
+    "synonyms": [
+      "chest"
     ]
   },
   {
@@ -12,9 +18,33 @@
     ]
   },
   {
-    "value": "shoulder",
+    "value": "hand",
     "synonyms": [
-      "shoulder"
+      "hand"
+    ]
+  },
+  {
+    "value": "elbow",
+    "synonyms": [
+      "Elbow"
+    ]
+  },
+  {
+    "value": "foot",
+    "synonyms": [
+      "foot"
+    ]
+  },
+  {
+    "value": "leg",
+    "synonyms": [
+      "leg"
+    ]
+  },
+  {
+    "value": "neck",
+    "synonyms": [
+      "neck"
     ]
   },
   {

@@ -29,8 +29,8 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Got it",
-            "Okay"
+            "Documented plan for #WebPTConversation-followup.given-name",
+            "Documented plan for patient"
           ]
         }
       ],
@@ -41,9 +41,9 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1537468498,
+  "lastUpdate": 1539838334,
   "fallbackIntent": false,
   "events": []
 }
