@@ -2,12 +2,20 @@
   "id": "35388a42-dacd-46a6-9b18-0354f55d9b03",
   "name": "print-form",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "WebPTStarter-followup"
+  ],
   "responses": [
     {
       "resetContexts": false,
       "action": "print-form",
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "WebPTStarter-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
       "parameters": [],
       "messages": [
         {
@@ -60,7 +68,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1539301693,
+  "lastUpdate": 1542224767,
   "fallbackIntent": false,
   "events": []
 }

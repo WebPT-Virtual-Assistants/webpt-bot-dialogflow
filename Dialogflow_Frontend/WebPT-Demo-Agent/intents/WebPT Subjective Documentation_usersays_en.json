@@ -1,5 +1,274 @@
 [
   {
+    "id": "31e643be-a606-4dad-b653-0b33f70f18c4",
+    "data": [
+      {
+        "text": "Knee",
+        "alias": "body-part",
+        "meta": "@body-part",
+        "userDefined": false
+      },
+      {
+        "text": " pain is a ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "number1",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542744394
+  },
+  {
+    "id": "af6a5e45-6fa2-481a-93e7-6085ef1293fb",
+    "data": [
+      {
+        "text": "My ",
+        "userDefined": false
+      },
+      {
+        "text": "knee",
+        "alias": "body-part",
+        "meta": "@body-part",
+        "userDefined": false
+      },
+      {
+        "text": " pain is a ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "alias": "number1",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542744394
+  },
+  {
+    "id": "ca97954a-2681-4369-bbae-24a207eb2bf4",
+    "data": [
+      {
+        "text": "His ",
+        "userDefined": false
+      },
+      {
+        "text": "knee",
+        "alias": "body-part",
+        "meta": "@body-part",
+        "userDefined": false
+      },
+      {
+        "text": " pain decreased to ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "alias": "number1",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " out of ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542744394
+  },
+  {
+    "id": "065c5ad7-8288-41e5-91b0-6b3dabcaa303",
+    "data": [
+      {
+        "text": "His ",
+        "userDefined": false
+      },
+      {
+        "text": "knee",
+        "alias": "body-part",
+        "meta": "@body-part",
+        "userDefined": false
+      },
+      {
+        "text": " pain is now ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "number1",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " out of ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542744394
+  },
+  {
+    "id": "49867ab6-82ea-4d18-a0ed-bba627cef37a",
+    "data": [
+      {
+        "text": "Pain in my ",
+        "userDefined": false
+      },
+      {
+        "text": "elbow",
+        "alias": "body-part",
+        "meta": "@body-part",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "number1",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " out of ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542744394
+  },
+  {
+    "id": "edda18a9-355d-4e09-925d-4140b53bcf5f",
+    "data": [
+      {
+        "text": "Pain in my ",
+        "userDefined": false
+      },
+      {
+        "text": "back",
+        "alias": "body-part",
+        "meta": "@body-part",
+        "userDefined": false
+      },
+      {
+        "text": " is now ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "number1",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " out of 10",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fbde75a4-4c02-4787-be7a-46b1e779f28d",
+    "data": [
+      {
+        "text": "Pain in my ",
+        "userDefined": false
+      },
+      {
+        "text": "knee",
+        "alias": "body-part",
+        "meta": "@body-part",
+        "userDefined": false
+      },
+      {
+        "text": " has decreased from ",
+        "userDefined": false
+      },
+      {
+        "text": "8",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": "/10 to ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "number1",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": "/10",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2cf39c7b-419f-4f81-842f-5fc5205ba3c5",
+    "data": [
+      {
+        "text": "My ",
+        "userDefined": false
+      },
+      {
+        "text": "knee",
+        "alias": "body-part",
+        "meta": "@body-part",
+        "userDefined": true
+      },
+      {
+        "text": " pain has decreased to a pain of ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "number1",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " out of 10",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
     "id": "80b30224-c8a2-49b5-b896-f1318415ea81",
     "data": [
       {
@@ -59,19 +328,23 @@
         "userDefined": false
       },
       {
-        "text": "7 out of 10",
+        "text": "7",
         "alias": "number",
         "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " out of 10 to ",
         "userDefined": false
       },
       {
-        "text": " to ",
-        "userDefined": false
-      },
-      {
-        "text": "3 out of 10",
+        "text": "3",
         "alias": "number1",
         "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " out of 10",
         "userDefined": false
       }
     ],
@@ -97,19 +370,23 @@
         "userDefined": false
       },
       {
-        "text": "7/10",
+        "text": "7",
         "alias": "number",
         "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": "/10 to ",
         "userDefined": false
       },
       {
-        "text": " to ",
-        "userDefined": false
-      },
-      {
-        "text": "3/10",
+        "text": "3",
         "alias": "number1",
         "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": "/10",
         "userDefined": false
       }
     ],
@@ -135,20 +412,24 @@
         "userDefined": false
       },
       {
-        "text": "7 over 10",
+        "text": "7",
         "alias": "number",
         "meta": "@sys.number",
         "userDefined": true
       },
       {
-        "text": " to ",
+        "text": " over 10 to ",
         "userDefined": false
       },
       {
-        "text": "3 over 10",
+        "text": "3",
         "alias": "number1",
         "meta": "@sys.number",
         "userDefined": true
+      },
+      {
+        "text": " over 10",
+        "userDefined": false
       }
     ],
     "isTemplate": false,
@@ -184,12 +465,21 @@
       },
       {
         "text": "10",
-        "alias": "number1",
-        "meta": "@sys.number",
+        "meta": "@sys.ignore",
         "userDefined": false
       },
       {
-        "text": " to 2 out of 10",
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "number1",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " out of 10",
         "userDefined": false
       }
     ],
@@ -215,20 +505,24 @@
         "userDefined": false
       },
       {
-        "text": "7 out of 10",
+        "text": "7",
         "alias": "number",
         "meta": "@sys.number",
         "userDefined": true
       },
       {
-        "text": " to ",
+        "text": " out of 10 to ",
         "userDefined": false
       },
       {
-        "text": "5 out of 10",
+        "text": "5",
         "alias": "number1",
         "meta": "@sys.number",
         "userDefined": true
+      },
+      {
+        "text": " out of 10",
+        "userDefined": false
       }
     ],
     "isTemplate": false,
@@ -253,20 +547,24 @@
         "userDefined": false
       },
       {
-        "text": "7/10",
+        "text": "7",
         "alias": "number",
         "meta": "@sys.number",
         "userDefined": true
       },
       {
-        "text": " to ",
+        "text": "/10 to ",
         "userDefined": false
       },
       {
-        "text": "5/10",
+        "text": "5",
         "alias": "number1",
         "meta": "@sys.number",
         "userDefined": true
+      },
+      {
+        "text": "/10",
+        "userDefined": false
       }
     ],
     "isTemplate": false,
@@ -291,20 +589,24 @@
         "userDefined": false
       },
       {
-        "text": "7 out of 10",
+        "text": "7",
         "alias": "number",
         "meta": "@sys.number",
         "userDefined": true
       },
       {
-        "text": " to ",
+        "text": " out of 10 to ",
         "userDefined": false
       },
       {
-        "text": "3 out of 10",
+        "text": "3",
         "alias": "number1",
         "meta": "@sys.number",
         "userDefined": true
+      },
+      {
+        "text": " out of 10",
+        "userDefined": false
       }
     ],
     "isTemplate": false,
@@ -329,20 +631,24 @@
         "userDefined": false
       },
       {
-        "text": "8 out of 10",
+        "text": "8",
         "alias": "number",
         "meta": "@sys.number",
         "userDefined": true
       },
       {
-        "text": " to ",
+        "text": " out of 10 to ",
         "userDefined": false
       },
       {
-        "text": "2 out of 10",
+        "text": "2",
         "alias": "number1",
         "meta": "@sys.number",
         "userDefined": true
+      },
+      {
+        "text": " out of 10",
+        "userDefined": false
       }
     ],
     "isTemplate": false,
@@ -367,20 +673,24 @@
         "userDefined": false
       },
       {
-        "text": "5 out of 10",
+        "text": "5",
         "alias": "number",
         "meta": "@sys.number",
         "userDefined": true
       },
       {
-        "text": " to ",
+        "text": " out of 10 to ",
         "userDefined": false
       },
       {
-        "text": "2 out of 10",
+        "text": "2",
         "alias": "number1",
         "meta": "@sys.number",
         "userDefined": true
+      },
+      {
+        "text": " out of 10",
+        "userDefined": false
       }
     ],
     "isTemplate": false,
@@ -405,20 +715,24 @@
         "userDefined": false
       },
       {
-        "text": "5 out of 10",
+        "text": "5",
         "alias": "number",
         "meta": "@sys.number",
         "userDefined": true
       },
       {
-        "text": " to ",
+        "text": " out of 10 to ",
         "userDefined": false
       },
       {
-        "text": "3 out of 10",
+        "text": "3",
         "alias": "number1",
         "meta": "@sys.number",
         "userDefined": true
+      },
+      {
+        "text": " out of 10",
+        "userDefined": false
       }
     ],
     "isTemplate": false,
@@ -468,6 +782,43 @@
     "updated": 0
   },
   {
+    "id": "237c6e94-d3b7-4f35-8f8e-ddf36a80a604",
+    "data": [
+      {
+        "text": "My ",
+        "userDefined": false
+      },
+      {
+        "text": "knee",
+        "alias": "body-part",
+        "meta": "@body-part",
+        "userDefined": false
+      },
+      {
+        "text": " pain is a ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "number1",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " out of ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542744394
+  },
+  {
     "id": "301b4472-cd8f-4b0c-8d62-da4655bb9ff0",
     "data": [
       {
@@ -485,19 +836,23 @@
         "userDefined": false
       },
       {
-        "text": "5/10",
+        "text": "5",
         "alias": "number",
         "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": "/10 to ",
         "userDefined": false
       },
       {
-        "text": " to ",
-        "userDefined": false
-      },
-      {
-        "text": "1/10",
+        "text": "1",
         "alias": "number1",
         "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": "/10",
         "userDefined": false
       }
     ],
@@ -523,20 +878,24 @@
         "userDefined": false
       },
       {
-        "text": "7 out of 10",
+        "text": "7",
         "alias": "number",
         "meta": "@sys.number",
         "userDefined": true
       },
       {
-        "text": " to ",
+        "text": " out of 10 to ",
         "userDefined": false
       },
       {
-        "text": "3 out of 10",
+        "text": "3",
         "alias": "number1",
         "meta": "@sys.number",
         "userDefined": true
+      },
+      {
+        "text": " out of 10",
+        "userDefined": false
       }
     ],
     "isTemplate": false,
@@ -603,10 +962,14 @@
         "userDefined": false
       },
       {
-        "text": "3/10",
-        "alias": "number",
+        "text": "3",
+        "alias": "number1",
         "meta": "@sys.number",
         "userDefined": true
+      },
+      {
+        "text": "/10",
+        "userDefined": false
       }
     ],
     "isTemplate": false,
@@ -631,20 +994,24 @@
         "userDefined": false
       },
       {
-        "text": "5 out of 10",
+        "text": "5",
         "alias": "number",
         "meta": "@sys.number",
         "userDefined": true
       },
       {
-        "text": " to ",
+        "text": " out of 10 to ",
         "userDefined": false
       },
       {
-        "text": "1 out of 10",
+        "text": "1",
         "alias": "number1",
         "meta": "@sys.number",
         "userDefined": true
+      },
+      {
+        "text": " out of 10",
+        "userDefined": false
       }
     ],
     "isTemplate": false,

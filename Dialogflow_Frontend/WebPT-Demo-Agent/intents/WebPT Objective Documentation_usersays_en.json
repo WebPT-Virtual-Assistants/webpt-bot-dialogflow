@@ -1,5 +1,609 @@
 [
   {
+    "id": "547f4628-cacb-443e-bec7-21507c19cf8c",
+    "data": [
+      {
+        "text": "blood pressure",
+        "alias": "vitals",
+        "meta": "@vitals",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "120",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " over ",
+        "userDefined": false
+      },
+      {
+        "text": "80",
+        "alias": "number1",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "temperature",
+        "alias": "vitals",
+        "meta": "@vitals",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "37",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "degrees",
+        "alias": "unit-information-name",
+        "meta": "@sys.unit-information-name",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "blood pressure",
+        "alias": "vitals",
+        "meta": "@vitals",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "12",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "CPM",
+        "alias": "unit-information-name",
+        "meta": "@sys.unit-information-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8e484b76-04d4-427e-b997-f2771050bdce",
+    "data": [
+      {
+        "text": "respiratory rate",
+        "alias": "vitals",
+        "meta": "@vitals",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "12",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "CPM",
+        "alias": "unit-information-name",
+        "meta": "@sys.unit-information-name",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "blood pressure",
+        "alias": "vitals",
+        "meta": "@vitals",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "120",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " over ",
+        "userDefined": false
+      },
+      {
+        "text": "80",
+        "alias": "number1",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "temperature",
+        "alias": "vitals",
+        "meta": "@vitals",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "37",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "degrees",
+        "alias": "unit-information-name",
+        "meta": "@sys.unit-information-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "660c070b-1974-4a58-87eb-0aca22962887",
+    "data": [
+      {
+        "text": "heart rate",
+        "alias": "vitals",
+        "meta": "@vitals",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "80",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "BPM",
+        "alias": "unit-information-name",
+        "meta": "@sys.unit-information-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5ee4ade9-4791-4377-ba85-d8ce44f2be47",
+    "data": [
+      {
+        "text": "Blood pressure",
+        "alias": "vitals",
+        "meta": "@vitals",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "120",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " over ",
+        "userDefined": false
+      },
+      {
+        "text": "80",
+        "alias": "number1",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543460369
+  },
+  {
+    "id": "e948282b-cb33-431b-b2c3-3119b5bf7db1",
+    "data": [
+      {
+        "text": "Respiratory rate",
+        "alias": "vitals",
+        "meta": "@vitals",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "12",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "cpm",
+        "alias": "unit-information-name",
+        "meta": "@sys.unit-information-name",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "heart rate",
+        "alias": "vitals",
+        "meta": "@vitals",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "75",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "bpm",
+        "alias": "unit-information-name",
+        "meta": "@sys.unit-information-name",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "blood pressure",
+        "alias": "vitals",
+        "meta": "@vitals",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "135",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "/",
+        "userDefined": false
+      },
+      {
+        "text": "90",
+        "alias": "number1",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": ", and ",
+        "userDefined": false
+      },
+      {
+        "text": "temperature",
+        "alias": "vitals",
+        "meta": "@vitals",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "37",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "degrees",
+        "alias": "unit-information-name",
+        "meta": "@sys.unit-information-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543460369
+  },
+  {
+    "id": "e1760678-3e4b-4b74-b485-6e6f0aaecf8b",
+    "data": [
+      {
+        "text": "Respiratory rate",
+        "alias": "vitals",
+        "meta": "@vitals",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "cpm",
+        "alias": "unit-information-name",
+        "meta": "@sys.unit-information-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f4a87846-80de-40a8-8a02-ac29cb025409",
+    "data": [
+      {
+        "text": "Pulse rate",
+        "alias": "vitals",
+        "meta": "@vitals",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "90",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "bpm",
+        "alias": "unit-information-name",
+        "meta": "@sys.unit-information-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "48400cc5-4ea2-4fd7-a1bd-a30d5b65279f",
+    "data": [
+      {
+        "text": "Temperature",
+        "alias": "vitals",
+        "meta": "@vitals",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "37",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "°",
+        "alias": "unit-information-name",
+        "meta": "@sys.unit-information-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f5a1a0c1-487f-488a-8022-8a1f3eb66221",
+    "data": [
+      {
+        "text": "Blood pressure",
+        "alias": "vitals",
+        "meta": "@vitals",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "130",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": "/",
+        "userDefined": false
+      },
+      {
+        "text": "75",
+        "alias": "number1",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542689512
+  },
+  {
+    "id": "d7b320cd-191d-410f-aa6f-e93c700b52e3",
+    "data": [
+      {
+        "text": "Temperature",
+        "alias": "vitals",
+        "meta": "@vitals",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "35",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "859238b2-3c97-43a8-8317-8fa1b347febf",
+    "data": [
+      {
+        "text": "Heart rate",
+        "alias": "vitals",
+        "meta": "@vitals",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "70",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "bpm",
+        "alias": "unit-information-name",
+        "meta": "@sys.unit-information-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9dd09255-840b-4cc8-9156-abafbcb86167",
+    "data": [
+      {
+        "text": "Respiratory rate",
+        "alias": "vitals",
+        "meta": "@vitals",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "8",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "cpm",
+        "alias": "unit-information-name",
+        "meta": "@sys.unit-information-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
     "id": "d439fd63-7019-43bf-b8ec-15ad653c2599",
     "data": [
       {
@@ -30,7 +634,7 @@
       }
     ],
     "isTemplate": false,
-    "count": 0,
+    "count": 1,
     "updated": 0
   },
   {
@@ -176,82 +780,32 @@
         "text": "Blood Pressure",
         "alias": "vitals",
         "meta": "@vitals",
-        "userDefined": false
+        "userDefined": true
       },
       {
         "text": " is ",
         "userDefined": false
       },
       {
-        "text": "120",
+        "text": "120 over 80",
         "alias": "number",
         "meta": "@sys.number",
-        "userDefined": false
+        "userDefined": true
       },
       {
         "text": " ",
         "userDefined": false
       },
       {
-        "text": "over",
+        "text": "mmHg",
         "alias": "unit-information-name",
         "meta": "@sys.unit-information-name",
-        "userDefined": false
-      },
-      {
-        "text": " 80",
-        "userDefined": false
-      },
-      {
-        "text": " mmHg",
-        "userDefined": false
+        "userDefined": true
       }
     ],
     "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "119f8cfc-ee52-43c7-b580-a155b51c0ce6",
-    "data": [
-      {
-        "text": "Blood pressure",
-        "alias": "vitals",
-        "meta": "@vitals",
-        "userDefined": false
-      },
-      {
-        "text": " is ",
-        "userDefined": false
-      },
-      {
-        "text": "120",
-        "alias": "number",
-        "meta": "@sys.number",
-        "userDefined": false
-      },
-      {
-        "text": " ",
-        "userDefined": false
-      },
-      {
-        "text": "over",
-        "alias": "unit-information-name",
-        "meta": "@sys.unit-information-name",
-        "userDefined": false
-      },
-      {
-        "text": " 80",
-        "userDefined": false
-      },
-      {
-        "text": " mmhg",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
+    "count": 1,
+    "updated": 1542172682
   },
   {
     "id": "9742afb3-5a71-4c79-bb06-252e22302a1f",
@@ -320,40 +874,6 @@
     "isTemplate": false,
     "count": 0,
     "updated": 1537308917
-  },
-  {
-    "id": "35688a63-48fb-4166-bf85-4c5f0e468863",
-    "data": [
-      {
-        "text": "Blood Pressure",
-        "alias": "vitals",
-        "meta": "@vitals",
-        "userDefined": true
-      },
-      {
-        "text": " is ",
-        "userDefined": false
-      },
-      {
-        "text": "120 over 80",
-        "alias": "number",
-        "meta": "@sys.number",
-        "userDefined": true
-      },
-      {
-        "text": " ",
-        "userDefined": false
-      },
-      {
-        "text": "mmHg",
-        "alias": "unit-information-name",
-        "meta": "@sys.unit-information-name",
-        "userDefined": true
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "updated": 0
   },
   {
     "id": "4afd9ff2-b55c-4be2-b2c7-a7315d563b19",

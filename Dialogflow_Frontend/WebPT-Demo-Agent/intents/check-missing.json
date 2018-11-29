@@ -1,16 +1,11 @@
 {
-  "id": "52fde1b0-c225-4f34-b6e8-db7c4f2e7bc4",
-  "parentId": "f5cd0483-b07a-4420-8085-45c1b2d926c4",
-  "rootParentId": "f5cd0483-b07a-4420-8085-45c1b2d926c4",
-  "name": "WebPT Assessment Documentation",
+  "id": "ea8ff223-3b30-468e-9a7a-8c180af9ec8a",
+  "name": "check-missing",
   "auto": true,
-  "contexts": [
-    "WebPTStarter-followup"
-  ],
+  "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "WebPTStarter.WebPTStarter-custom",
       "affectedContexts": [
         {
           "name": "WebPTStarter-followup",
@@ -23,27 +18,31 @@
           "lifespan": 5
         }
       ],
-      "parameters": [],
+      "parameters": [
+        {
+          "id": "74abc5e3-ba35-4ebe-890b-f0caf3aca351",
+          "required": false,
+          "dataType": "@test-type",
+          "name": "test-type",
+          "value": "$test-type",
+          "isList": false
+        }
+      ],
       "messages": [
         {
           "type": 0,
           "lang": "en",
-          "speech": [
-            "Noted assessment for #WebPTConversation-followup.given-name",
-            "Noted assessment for patient."
-          ]
+          "speech": "Webhook response invoked."
         }
       ],
-      "defaultResponsePlatforms": {
-        "google": true
-      },
+      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1542172774,
+  "lastUpdate": 1543459509,
   "fallbackIntent": false,
   "events": []
 }

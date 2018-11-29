@@ -56,7 +56,7 @@
           "dataType": "@sys.number",
           "name": "number1",
           "value": "$number1",
-          "isList": false
+          "isList": true
         }
       ],
       "messages": [
@@ -79,7 +79,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1539843010,
+  "lastUpdate": 1542744394,
   "fallbackIntent": false,
   "events": []
 }

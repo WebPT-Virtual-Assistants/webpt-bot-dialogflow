@@ -38,7 +38,7 @@
           "dataType": "@sys.number",
           "name": "number",
           "value": "$number",
-          "isList": false
+          "isList": true
         },
         {
           "id": "c493029e-641b-4d98-ba88-8ec6b858fffc",
@@ -46,7 +46,15 @@
           "dataType": "@sys.unit-information-name",
           "name": "unit-information-name",
           "value": "$unit-information-name",
-          "isList": false
+          "isList": true
+        },
+        {
+          "id": "2fd7565c-10ec-4d7d-b8b4-ce31f3117d9e",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number1",
+          "value": "$number1",
+          "isList": true
         }
       ],
       "messages": [
@@ -54,10 +62,12 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "#WebPTConversation-followup.give-name has $vitals of $number $unit-information-name",
-            "#WebPTConversation-followup.give-name has $vitals of $number",
-            "New entry for #WebPTConversation-followup.give-name $vitals",
-            "Unable to parse vitals information for #WebPTConversation-followup.give-name",
+            "#WebPTConversation-followup.given-name has $vitals of $number over $number1 $unit-information-name",
+            "#WebPTConversation-followup.given-name has $vitals of $number $unit-information-name",
+            "#WebPTConversation-followup.given-name has $vitals of $number over $number1",
+            "#WebPTConversation-followup.given-name has $vitals of $number",
+            "New entry for #WebPTConversation-followup.given-name $vitals",
+            "Unable to parse vitals information for #WebPTConversation-followup.given-name",
             "Unable to parse any vitals information for patient"
           ]
         }
@@ -71,7 +81,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1539838225,
+  "lastUpdate": 1543460369,
   "fallbackIntent": false,
   "events": []
 }

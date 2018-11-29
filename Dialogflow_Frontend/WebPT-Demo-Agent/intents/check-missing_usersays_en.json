@@ -1,0 +1,96 @@
+[
+  {
+    "id": "32493871-4205-43cd-821e-d9f3776842bb",
+    "data": [
+      {
+        "text": "check missing values",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "59b772fc-8d6a-4190-a414-c6678cf1f8b9",
+    "data": [
+      {
+        "text": "check for missing values",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "118ce355-ef78-409b-a9a2-005872fa4f91",
+    "data": [
+      {
+        "text": "Show missing values",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543457517
+  },
+  {
+    "id": "7578ce9a-0656-44a8-b652-ae81cd004679",
+    "data": [
+      {
+        "text": "What is missing from the SOAP note?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543457490
+  },
+  {
+    "id": "bd95d37e-5bb8-4c62-9150-7c2390ad9f9c",
+    "data": [
+      {
+        "text": "What is missing from the ",
+        "userDefined": false
+      },
+      {
+        "text": "objective",
+        "alias": "test-type",
+        "meta": "@test-type",
+        "userDefined": false
+      },
+      {
+        "text": " documentation?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543457490
+  },
+  {
+    "id": "5b80666c-ba4c-4942-b610-afd4181f3d46",
+    "data": [
+      {
+        "text": "Did I miss something?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543457490
+  },
+  {
+    "id": "331ab583-7b13-4a65-b3b7-72a483e5cbc6",
+    "data": [
+      {
+        "text": "Am I missing anything?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543457490
+  }
+]

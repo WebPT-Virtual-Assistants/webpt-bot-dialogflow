@@ -1,0 +1,31 @@
+[
+  {
+    "value": "counts per minute",
+    "synonyms": [
+      "cpm",
+      "CPM",
+      "counts per minute"
+    ]
+  },
+  {
+    "value": "beats per minute",
+    "synonyms": [
+      "beats per minute",
+      "bpm",
+      "BPM"
+    ]
+  },
+  {
+    "value": "mmHg",
+    "synonyms": [
+      "mmHg"
+    ]
+  },
+  {
+    "value": "degrees",
+    "synonyms": [
+      "degrees",
+      "degree"
+    ]
+  }
+]
